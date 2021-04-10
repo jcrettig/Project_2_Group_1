@@ -7,9 +7,9 @@ For this project, our team decided to work with movie score data from IMDb and R
 The film buff, theatre owner, or curious data enthusiast – anyone with an interest in movies could enjoy perusing our data visualizations!
 
 ## Links to inspiration
-https://www.chartjs.org/docs/latest/charts/doughnut.html
-https://www.imdb.com/
-https://www.rottentomatoes.com/
+- https://www.chartjs.org/docs/latest/charts/doughnut.html
+- https://www.imdb.com/
+- https://www.rottentomatoes.com/
 
 ## Our repository 
-https://github.com/jcrettig/Project_2_Group_1
+- https://github.com/jcrettig/Project_2_Group_1
