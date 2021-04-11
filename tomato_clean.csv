@@ -1,0 +1,1591 @@
+rank,title,year,rating,genres
+1,black panther,2018,97,action|adventure
+2,mad max: fury road,2015,97,action|adventure
+3,wonder woman,2017,93,action|adventure
+4,metropolis,1927,99,action|adventure
+5,coco,2017,97,action|adventure
+6,dunkirk,2017,92,action|adventure
+7,incredibles 2,2018,94,action|adventure
+8,star wars: the last jedi,2017,91,action|adventure
+9,logan,2017,93,action|adventure
+10,star wars: episode vii - the force awakens,2015,93,action|adventure
+11,king kong,1933,98,action|adventure
+12,the adventures of robin hood,1938,100,action|adventure
+13,thor: ragnarok,2017,92,action|adventure
+14,baby driver,2017,93,action|adventure
+15,zootopia,2016,97,action|adventure
+16,seven samurai,1956,100,action|adventure
+17,spider-man: homecoming,2017,92,action|adventure
+18,up,2009,98,action|adventure
+19,the jungle book,2016,95,action|adventure
+20,war for the planet of the apes,2017,93,action|adventure
+21,the treasure of the sierra madre,1948,100,action|adventure
+22,lawrence of arabia,1962,98,action|adventure
+23,the dark knight,2008,94,action|adventure
+24,captain america: civil war,2016,91,action|adventure
+25,jaws,1975,97,action|adventure
+26,harry potter and the deathly hallows - part 2,2011,96,action|adventure
+27,the hurt locker,2009,97,action|adventure
+28,aliens,1986,99,action|adventure
+29,the lego movie,2014,96,action|adventure
+30,skyfall,2012,92,action|adventure
+31,ant-man and the wasp,2018,88,action|adventure
+32,star wars: episode iv - a new hope,1977,93,action|adventure
+33,wall-e,2008,96,action|adventure
+34,moana,2016,95,action|adventure
+35,the searchers,1956,100,action|adventure
+36,star trek,2009,94,action|adventure
+37,kubo and the two strings,2016,97,action|adventure
+38,the 39 steps,1935,96,action|adventure
+39,rio bravo,1959,100,action|adventure
+40,the terminator,1984,100,action|adventure
+41,mission: impossible rogue nation,2015,93,action|adventure
+42,marvel's the avengers,2012,92,action|adventure
+43,the african queen,1951,98,action|adventure
+44,star wars: episode v - the empire strikes back,1980,95,action|adventure
+45,once upon a time in the west,1968,98,action|adventure
+46,apocalypse now,1979,96,action|adventure
+47,blade runner 2049,2017,87,action|adventure
+48,the french connection,1971,98,action|adventure
+49,true grit,2010,96,action|adventure
+50,isle of dogs,2018,89,action|adventure
+51,throne of blood,1957,98,action|adventure
+52,"aguirre, the wrath of god",1972,98,action|adventure
+53,badlands,1974,98,action|adventure
+54,avengers: infinity war,2018,84,action|adventure
+55,yellow submarine,1968,97,action|adventure
+56,guardians of the galaxy,2014,91,action|adventure
+57,iron man,2008,93,action|adventure
+58,chicken run,2000,97,action|adventure
+59,spartacus,1960,96,action|adventure
+60,the princess bride,1987,97,action|adventure
+61,hunt for the wilderpeople,2016,96,action|adventure
+62,ghostbusters,1984,97,action|adventure
+63,goldfinger,1964,97,action|adventure
+64,paths of glory,1957,95,action|adventure
+65,casino royale,2006,94,action|adventure
+66,all is lost,2013,94,action|adventure
+67,ran,1985,96,action|adventure
+68,the lego batman movie,2017,90,action|adventure
+69,doctor strange,2016,89,action|adventure
+70,a fistful of dollars,1964,98,action|adventure
+71,assault on precinct 13,1976,98,action|adventure
+72,x-men: days of future past,2014,90,action|adventure
+73,no country for old men,2007,93,action|adventure
+74,the lord of the rings: the two towers,2002,95,action|adventure
+75,looper,2012,93,action|adventure
+76,back to the future,1985,96,action|adventure
+77,the right stuff,1983,98,action|adventure
+78,gojira,1956,93,action|adventure
+79,"crouching tiger, hidden dragon",2001,97,action|adventure
+80,the fugitive,1993,96,action|adventure
+81,dawn of the planet of the apes,2014,90,action|adventure
+82,mad max 2: the road warrior,1982,98,action|adventure
+83,mandy,2018,92,action|adventure
+84,who framed roger rabbit,1988,97,action|adventure
+85,annihilation,2018,89,action|adventure
+86,close encounters of the third kind,1977,96,action|adventure
+87,diva,1981,98,action|adventure
+88,the bridge on the river kwai,1957,94,action|adventure
+89,babe,1995,97,action|adventure
+90,dr. no,1962,96,action|adventure
+91,the lion king,1994,93,action|adventure
+92,sicario,2015,92,action|adventure
+93,jurassic park,1993,91,action|adventure
+94,in the line of fire,1993,96,action|adventure
+95,raiders of the lost ark,1981,95,action|adventure
+96,from russia with love,1964,96,action|adventure
+97,superman,1978,94,action|adventure
+98,saving private ryan,1998,93,action|adventure
+99,the lord of the rings: the return of the king,2003,93,action|adventure
+100,embrace of the serpent,2016,96,action|adventure
+1,inside out,2015,98,animation
+2,coco,2017,97,animation
+3,paddington 2,2018,100,animation
+4,incredibles 2,2018,94,animation
+5,snow white and the seven dwarfs,1937,98,animation
+6,toy story 2,1999,100,animation
+7,zootopia,2016,97,animation
+8,up,2009,98,animation
+9,toy story 3,2010,98,animation
+10,finding nemo,2003,99,animation
+11,pinocchio,1940,100,animation
+12,finding dory,2016,94,animation
+13,toy story,1995,100,animation
+14,the lego movie,2014,96,animation
+15,wall-e,2008,96,animation
+16,moana,2016,95,animation
+17,kubo and the two strings,2016,97,animation
+18,shaun the sheep movie,2015,99,animation
+19,ratatouille,2007,96,animation
+20,only yesterday,1991,100,animation
+21,how to train your dragon,2010,98,animation
+22,isle of dogs,2018,89,animation
+23,the incredibles,2004,97,animation
+24,yellow submarine,1968,97,animation
+25,beauty and the beast,1991,94,animation
+26,chicken run,2000,97,animation
+27,my life as a zucchini,2017,98,animation
+28,101 dalmatians,1961,98,animation
+29,the nightmare before christmas,1993,95,animation
+30,fantasia,1940,96,animation
+31,"monsters, inc.",2001,96,animation
+32,the lego batman movie,2017,90,animation
+33,the iron giant,1999,96,animation
+34,spirited away,2002,97,animation
+35,tower,2016,99,animation
+36,song of the sea,2014,99,animation
+37,who framed roger rabbit,1988,97,animation
+38,anomalisa,2015,92,animation
+39,the lion king,1994,93,animation
+40,your name.,2017,97,animation
+41,waltz with bashir,2008,96,animation
+42,persepolis,2007,96,animation
+43,wallace & gromit: the curse of the were-rabbit,2005,95,animation
+44,the secret world of arrietty,2012,95,animation
+45,ernest & célestine,2014,97,animation
+46,the red turtle,2017,93,animation
+47,long way north,2016,98,animation
+48,aladdin,1992,94,animation
+49,fantastic mr. fox,2009,92,animation
+50,frozen,2013,90,animation
+51,the breadwinner,2017,95,animation
+52,ghost in the shell,1996,96,animation
+53,coraline,2009,90,animation
+54,lady and the tramp,1955,93,animation
+55,antz,1998,93,animation
+56,the triplets of belleville,2003,94,animation
+57,how to train your dragon 2,2014,91,animation
+58,bambi,1942,90,animation
+59,my neighbor totoro,1988,94,animation
+60,big hero 6,2014,89,animation
+61,the little mermaid,1989,92,animation
+62,a bug's life,1998,92,animation
+63,princess mononoke,1999,92,animation
+64,arthur christmas,2011,92,animation
+65,mary and max,2009,95,animation
+66,james and the giant peach,1996,92,animation
+67,teen titans go! to the movies,2018,91,animation
+68,ponyo,2009,91,animation
+69,shrek 2,2004,89,animation
+70,bolt,2008,89,animation
+71,tangled,2010,89,animation
+72,the simpsons movie,2007,88,animation
+73,shrek,2001,88,animation
+74,frankenweenie,2012,87,animation
+75,the wind rises,2014,88,animation
+76,boy and the world,2015,93,animation
+77,winnie the pooh,2011,91,animation
+78,rango,2011,88,animation
+79,the illusionist,2010,91,animation
+80,paranorman,2012,88,animation
+81,the peanuts movie,2015,87,animation
+82,kung fu panda,2008,87,animation
+83,wreck-it ralph,2012,87,animation
+84,millennium actress,2001,92,animation
+85,when marnie was there,2015,90,animation
+86,the secret of kells,2010,91,animation
+87,howl's moving castle,2005,87,animation
+88,tarzan,1999,88,animation
+89,kung fu panda 3,2016,86,animation
+90,the boy and the beast,2016,90,animation
+91,captain underpants: the first epic movie,2017,87,animation
+92,sausage party,2016,83,animation
+93,tokyo godfathers,2003,90,animation
+94,mary and the witch's flower,2018,88,animation
+95,my dog tulip,2010,90,animation
+96,the pirates! band of misfits,2012,86,animation
+97,the princess and the frog,2009,85,animation
+98,loving vincent,2017,85,animation
+99,akira,1988,87,animation
+100,tim burton's corpse bride,2005,84,animation
+1,the cabinet of dr. caligari,1920,100,art_house|international
+2,metropolis,1927,99,art_house|international
+3,la grande illusion,1938,97,art_house|international
+4,"nosferatu, a symphony of horror",1922,97,art_house|international
+5,the battle of algiers,1967,98,art_house|international
+6,m,1931,100,art_house|international
+7,seven samurai,1956,100,art_house|international
+8,the 400 blows,1959,100,art_house|international
+9,army of shadows,1969,97,art_house|international
+10,rashômon,1951,98,art_house|international
+11,the wages of fear,1953,100,art_house|international
+12,open city,1946,100,art_house|international
+13,tokyo story,1953,100,art_house|international
+14,the leopard,1963,100,art_house|international
+15,battleship potemkin,1925,100,art_house|international
+16,the conformist,1970,98,art_house|international
+17,au hasard balthazar,1966,100,art_house|international
+18,things to come,2016,100,art_house|international
+19,la dolce vita,1960,97,art_house|international
+20,let the right one in,2008,98,art_house|international
+21,playtime,1973,100,art_house|international
+22,the discreet charm of the bourgeoisie,1972,98,art_house|international
+23,the rules of the game,1939,98,art_house|international
+24,faces places,2017,99,art_house|international
+25,the passion of joan of arc,1928,98,art_house|international
+26,only yesterday,1991,100,art_house|international
+27,tampopo,1985,100,art_house|international
+28,the salesman,2017,96,art_house|international
+29,throne of blood,1957,98,art_house|international
+30,a separation,2011,99,art_house|international
+31,"aguirre, the wrath of god",1972,98,art_house|international
+32,eyes without a face,1962,98,art_house|international
+33,gloria,2014,99,art_house|international
+34,8 1/2,1963,98,art_house|international
+35,pather panchali,1955,98,art_house|international
+36,the umbrellas of cherbourg,1964,98,art_house|international
+37,a fantastic woman,2018,94,art_house|international
+38,three colors: red,1994,100,art_house|international
+39,my life as a zucchini,2017,98,art_house|international
+40,le cercle rouge,1970,95,art_house|international
+41,the tale of the princess kaguya,2014,100,art_house|international
+42,amy,2015,95,art_house|international
+43,bpm,2017,98,art_house|international
+44,sing street,2016,95,art_house|international
+45,ran,1985,96,art_house|international
+46,a fistful of dollars,1964,98,art_house|international
+47,gett: the trial of viviane amsalem,2015,100,art_house|international
+48,solaris,1976,96,art_house|international
+49,wings of desire,1987,98,art_house|international
+50,the young girls of rochefort,1968,98,art_house|international
+51,gojira,1956,93,art_house|international
+52,"crouching tiger, hidden dragon",2001,97,art_house|international
+53,timbuktu,2015,98,art_house|international
+54,jiro dreams of sushi,2012,99,art_house|international
+55,diva,1981,98,art_house|international
+56,aruitemo aruitemo,2008,100,art_house|international
+57,the taste of others,2000,100,art_house|international
+58,all about my mother,1999,98,art_house|international
+59,toni erdmann,2016,93,art_house|international
+60,waste land,2010,100,art_house|international
+61,the band's visit,2007,98,art_house|international
+62,poetry,2011,100,art_house|international
+63,the vanishing,1988,98,art_house|international
+64,loveless,2018,94,art_house|international
+65,elevator to the gallows,1958,93,art_house|international
+66,god's own country,2017,97,art_house|international
+67,afghan star,2009,100,art_house|international
+68,a prophet,2010,97,art_house|international
+69,waltz with bashir,2008,96,art_house|international
+70,three colors: blue,1993,98,art_house|international
+71,embrace of the serpent,2016,96,art_house|international
+72,after the storm,2017,96,art_house|international
+73,about elly,2015,99,art_house|international
+74,fireworks wednesday,2016,100,art_house|international
+75,last train home,2010,100,art_house|international
+76,the seventh seal,1957,93,art_house|international
+77,project nim,2011,97,art_house|international
+78,monsieur lazhar,2012,97,art_house|international
+79,mafioso,1964,96,art_house|international
+80,maria full of grace,2004,97,art_house|international
+81,hero,2004,95,art_house|international
+82,an education,2009,95,art_house|international
+83,nostalgia for the light,2011,100,art_house|international
+84,amour,2012,93,art_house|international
+85,l'avventura,1960,95,art_house|international
+86,the look of silence,2015,96,art_house|international
+87,rivers and tides: andy goldsworthy working with time,2002,99,art_house|international
+88,moolaadé,2004,99,art_house|international
+89,the class,2008,95,art_house|international
+90,the man without a past,2002,98,art_house|international
+91,the twilight samurai,2004,99,art_house|international
+92,the kid with a bike,2012,96,art_house|international
+93,this is not a film,2012,97,art_house|international
+94,rififi,1956,94,art_house|international
+95,the secret world of arrietty,2012,95,art_house|international
+96,elle,2016,91,art_house|international
+97,district 9,2009,90,art_house|international
+98,ernest & célestine,2014,97,art_house|international
+99,"sex, lies, and videotape",1989,96,art_house|international
+100,the red turtle,2017,93,art_house|international
+1,the wizard of oz,1939,98,classics
+2,citizen kane,1941,100,classics
+3,the third man,1949,99,classics
+4,the cabinet of dr. caligari,1920,100,classics
+5,all about eve,1950,100,classics
+6,metropolis,1927,99,classics
+7,it happened one night,1934,98,classics
+8,modern times,1936,100,classics
+9,casablanca,1942,97,classics
+10,la grande illusion,1938,97,classics
+11,singin' in the rain,1952,100,classics
+12,psycho,1960,97,classics
+13,laura,1944,100,classics
+14,a hard day's night,1964,98,classics
+15,king kong,1933,98,classics
+16,"nosferatu, a symphony of horror",1922,97,classics
+17,snow white and the seven dwarfs,1937,98,classics
+18,the adventures of robin hood,1938,100,classics
+19,repulsion,1965,100,classics
+20,north by northwest,1959,99,classics
+21,sunset boulevard,1950,98,classics
+22,rear window,1954,100,classics
+23,the bride of frankenstein,1935,100,classics
+24,the philadelphia story,1940,100,classics
+25,touch of evil,1958,96,classics
+26,seven samurai,1956,100,classics
+27,all quiet on the western front,1930,100,classics
+28,12 angry men,1957,100,classics
+29,the treasure of the sierra madre,1948,100,classics
+30,a streetcar named desire,1951,98,classics
+31,vertigo,1958,96,classics
+32,the 400 blows,1959,100,classics
+33,rebecca,1940,100,classics
+34,lawrence of arabia,1962,98,classics
+35,rosemary's baby,1968,99,classics
+36,dr. strangelove or how i learned to stop worrying and love the bomb,1964,99,classics
+37,frankenstein,1931,100,classics
+38,rashômon,1951,98,classics
+39,on the waterfront,1954,98,classics
+40,the grapes of wrath,1940,100,classics
+41,the big sleep,1946,97,classics
+42,roman holiday,1953,98,classics
+43,the lady vanishes,1938,98,classics
+44,the last picture show,1971,100,classics
+45,cool hand luke,1967,100,classics
+46,the leopard,1963,100,classics
+47,chinatown,1974,98,classics
+48,battleship potemkin,1925,100,classics
+49,the searchers,1956,100,classics
+50,anatomy of a murder,1959,100,classics
+51,invasion of the body snatchers,1956,98,classics
+52,gone with the wind,1939,92,classics
+53,an american in paris,1951,95,classics
+54,the gold rush,1925,100,classics
+55,the 39 steps,1935,96,classics
+56,the red shoes,1948,96,classics
+57,rio bravo,1959,100,classics
+58,sweet smell of success,1957,98,classics
+59,to be or not to be,1942,98,classics
+60,mary poppins,1964,100,classics
+61,the african queen,1951,98,classics
+62,city lights,1931,98,classics
+63,miracle on 34th street,1947,96,classics
+64,2001: a space odyssey,1968,93,classics
+65,his girl friday,1940,98,classics
+66,it's a wonderful life,1946,93,classics
+67,night of the living dead,1968,97,classics
+68,the french connection,1971,98,classics
+69,the passion of joan of arc,1928,98,classics
+70,throne of blood,1957,98,classics
+71,badlands,1974,98,classics
+72,the manchurian candidate,1962,98,classics
+73,gentlemen prefer blondes,1953,98,classics
+74,freaks,1932,94,classics
+75,the birth of a nation,1915,98,classics
+76,spartacus,1960,96,classics
+77,forbidden planet,1956,98,classics
+78,the best years of our lives,1946,96,classics
+79,101 dalmatians,1961,98,classics
+80,goldfinger,1964,97,classics
+81,paths of glory,1957,95,classics
+82,bringing up baby,1938,95,classics
+83,some like it hot,1959,96,classics
+84,duck soup,1933,94,classics
+85,fantasia,1940,96,classics
+86,sunrise: a song of two humans,1927,98,classics
+87,the day the earth stood still,1951,94,classics
+88,ran,1985,96,classics
+89,rebel without a cause,1955,96,classics
+90,peeping tom,1960,96,classics
+91,a fistful of dollars,1964,98,classics
+92,the lord of the rings: the two towers,2002,95,classics
+93,the apartment,1960,94,classics
+94,the birds,1963,96,classics
+95,the young girls of rochefort,1968,98,classics
+96,one flew over the cuckoo's nest,1975,94,classics
+97,the bridge on the river kwai,1957,94,classics
+98,dr. no,1962,96,classics
+99,mean streets,1973,96,classics
+100,don't look now,1973,96,classics
+1,lady bird,2017,99,comedy
+2,blackkklansman,2018,95,comedy
+3,coco,2017,97,comedy
+4,it happened one night,1934,98,comedy
+5,modern times,1936,100,comedy
+6,paddington 2,2018,100,comedy
+7,the big sick,2017,98,comedy
+8,eighth grade,2018,99,comedy
+9,singin' in the rain,1952,100,comedy
+10,a hard day's night,1964,98,comedy
+11,la la land,2016,91,comedy
+12,the philadelphia story,1940,100,comedy
+13,toy story 2,1999,100,comedy
+14,zootopia,2016,97,comedy
+15,up,2009,98,comedy
+16,"three billboards outside ebbing, missouri",2017,91,comedy
+17,toy story 3,2010,98,comedy
+18,finding nemo,2003,99,comedy
+19,dr. strangelove or how i learned to stop worrying and love the bomb,1964,99,comedy
+20,the death of stalin,2018,96,comedy
+21,roman holiday,1953,98,comedy
+22,toy story,1995,100,comedy
+23,the lego movie,2014,96,comedy
+24,ant-man and the wasp,2018,88,comedy
+25,crazy rich asians,2018,91,comedy
+26,monty python and the holy grail,1975,97,comedy
+27,paterson,2016,96,comedy
+28,sorry to bother you,2018,93,comedy
+29,the gold rush,1925,100,comedy
+30,shaun the sheep movie,2015,99,comedy
+31,la dolce vita,1960,97,comedy
+32,to be or not to be,1942,98,comedy
+33,mary poppins,1964,100,comedy
+34,city lights,1931,98,comedy
+35,birdman,2014,91,comedy
+36,love & friendship,2016,97,comedy
+37,playtime,1973,100,comedy
+38,the disaster artist,2017,91,comedy
+39,annie hall,1977,97,comedy
+40,the discreet charm of the bourgeoisie,1972,98,comedy
+41,the artist,2011,95,comedy
+42,his girl friday,1940,98,comedy
+43,ratatouille,2007,96,comedy
+44,the rules of the game,1939,98,comedy
+45,tampopo,1985,100,comedy
+46,isle of dogs,2018,89,comedy
+47,the incredibles,2004,97,comedy
+48,gentlemen prefer blondes,1953,98,comedy
+49,the nice guys,2016,92,comedy
+50,yellow submarine,1968,97,comedy
+51,paddington,2015,98,comedy
+52,spy,2015,94,comedy
+53,chicken run,2000,97,comedy
+54,logan lucky,2017,92,comedy
+55,hunt for the wilderpeople,2016,96,comedy
+56,101 dalmatians,1961,98,comedy
+57,airplane!,1980,97,comedy
+58,ghostbusters,1984,97,comedy
+59,bringing up baby,1938,95,comedy
+60,big,1988,97,comedy
+61,some like it hot,1959,96,comedy
+62,duck soup,1933,94,comedy
+63,the player,1992,98,comedy
+64,don't think twice,2016,98,comedy
+65,"monsters, inc.",2001,96,comedy
+66,the lego batman movie,2017,90,comedy
+67,monty python's life of brian,1979,97,comedy
+68,the grand budapest hotel,2014,91,comedy
+69,sideways,2004,96,comedy
+70,the apartment,1960,94,comedy
+71,back to the future,1985,96,comedy
+72,the edge of seventeen,2016,95,comedy
+73,groundhog day,1993,96,comedy
+74,what we do in the shadows,2015,96,comedy
+75,tangerine,2015,97,comedy
+76,bull durham,1988,97,comedy
+77,who framed roger rabbit,1988,97,comedy
+78,moonrise kingdom,2012,93,comedy
+79,anomalisa,2015,92,comedy
+80,lost in translation,2003,95,comedy
+81,enough said,2013,95,comedy
+82,broadcast news,1987,98,comedy
+83,the taste of others,2000,100,comedy
+84,the muppets,2011,95,comedy
+85,the band's visit,2007,98,comedy
+86,hannah gadsby: nanette,2018,100,comedy
+87,repo man,1984,98,comedy
+88,the truman show,1998,94,comedy
+89,le havre,2011,99,comedy
+90,say anything...,1989,98,comedy
+91,wallace & gromit: the curse of the were-rabbit,2005,95,comedy
+92,hairspray,1988,98,comedy
+93,silver linings playbook,2012,92,comedy
+94,american graffiti,1973,96,comedy
+95,monsieur lazhar,2012,97,comedy
+96,juno,2007,94,comedy
+97,mafioso,1964,96,comedy
+98,we are the best!,2014,96,comedy
+99,manhattan,1979,95,comedy
+100,bullets over broadway,1994,97,comedy
+1,won't you be my neighbor?,2018,98,documentary
+2,i am not your negro,2017,98,documentary
+3,man on wire,2008,100,documentary
+4,life itself,2014,97,documentary
+5,faces places,2017,99,documentary
+6,20 feet from stardom,2013,99,documentary
+7,three identical strangers,2018,96,documentary
+8,the last waltz,1978,98,documentary
+9,amy,2015,95,documentary
+10,taxi to the dark side,2007,100,documentary
+11,kedi,2017,98,documentary
+12,blackfish,2013,98,documentary
+13,citizenfour,2014,97,documentary
+14,murderball,2005,98,documentary
+15,minding the gap,2018,100,documentary
+16,shirkers,2018,100,documentary
+17,tower,2016,99,documentary
+18,weiner,2016,96,documentary
+19,inside job,2010,98,documentary
+20,the missing picture,2014,99,documentary
+21,deliver us from evil,2006,100,documentary
+22,seymour: an introduction,2015,100,documentary
+23,rbg,2018,95,documentary
+24,anvil! the story of anvil,2009,98,documentary
+25,jiro dreams of sushi,2012,99,documentary
+26,bright lights: starring carrie fisher and debbie reynolds,2017,100,documentary
+27,the square,2013,100,documentary
+28,waste land,2010,100,documentary
+29,hoop dreams,1994,98,documentary
+30,"mr. death: the rise and fall of fred a. leuchter, jr.",1999,100,documentary
+31,strong island,2017,100,documentary
+32,afghan star,2009,100,documentary
+33,capturing the friedmans,2003,97,documentary
+34,waltz with bashir,2008,96,documentary
+35,iris,2015,98,documentary
+36,the overnighters,2014,99,documentary
+37,jodorowsky's dune,2014,97,documentary
+38,the interrupters,2011,99,documentary
+39,how to survive a plague,2012,99,documentary
+40,march of the penguins,2005,95,documentary
+41,56 up,2013,99,documentary
+42,last train home,2010,100,documentary
+43,the invisible war,2012,99,documentary
+44,kurt cobain: montage of heck,2015,98,documentary
+45,project nim,2011,97,documentary
+46,spellbound,2002,97,documentary
+47,everyday sunshine: the story of fishbone,2011,100,documentary
+48,nostalgia for the light,2011,100,documentary
+49,we were here,2011,100,documentary
+50,enron: the smartest guys in the room,2005,97,documentary
+51,bill cunningham new york,2011,99,documentary
+52,the look of silence,2015,96,documentary
+53,rivers and tides: andy goldsworthy working with time,2002,99,documentary
+54,when we were kings,1996,98,documentary
+55,the act of killing,2013,95,documentary
+56,13th,2016,97,documentary
+57,this is not a film,2012,97,documentary
+58,elaine stritch: shoot me,2014,98,documentary
+59,hitchcock/truffaut,2015,96,documentary
+60,the king of kong: a fistful of quarters,2007,97,documentary
+61,the fog of war: eleven lessons from the life of robert s. mcnamara,2003,96,documentary
+62,bowling for columbine,2002,95,documentary
+63,the imposter,2012,96,documentary
+64,the war tapes,2006,98,documentary
+65,cave of forgotten dreams,2011,96,documentary
+66,west of memphis,2012,96,documentary
+67,the beatles: eight days a week - the touring years,2016,96,documentary
+68,ai weiwei: never sorry,2012,97,documentary
+69,beware of mr. baker,2012,98,documentary
+70,jafar panahi's taxi,2015,96,documentary
+71,marwencol,2010,98,documentary
+72,undefeated,2012,96,documentary
+73,sicko,2007,92,documentary
+74,finders keepers,2015,98,documentary
+75,mea maxima culpa: silence in the house of god,2012,98,documentary
+76,blindsight,2006,98,documentary
+77,sound city,2013,98,documentary
+78,the devil came on horseback,2007,98,documentary
+79,call me kuchu,2013,98,documentary
+80,the island president,2012,98,documentary
+81,for the bible tells me so,2007,98,documentary
+82,welcome to leith,2015,98,documentary
+83,keep on keepin' on,2014,98,documentary
+84,let the fire burn,2013,98,documentary
+85,restrepo,2010,96,documentary
+86,the life and times of hank greenberg,2000,97,documentary
+87,born to be wild,2011,98,documentary
+88,surfwise,2007,98,documentary
+89,"lo and behold, reveries of the connected world",2016,94,documentary
+90,bus 174,2003,97,documentary
+91,stories we tell,2013,94,documentary
+92,wordplay,2006,95,documentary
+93,control room,2004,96,documentary
+94,burma vj: reporter i et lukket land,2008,97,documentary
+95,no end in sight,2007,96,documentary
+96,49 up,2006,97,documentary
+97,the cove,2009,95,documentary
+98,winged migration,2003,95,documentary
+99,muscle shoals,2013,96,documentary
+100,the queen of versailles,2012,95,documentary
+1,black panther,2018,97,drama
+2,lady bird,2017,99,drama
+3,citizen kane,1941,100,drama
+4,blackkklansman,2018,95,drama
+5,moonlight,2016,98,drama
+6,wonder woman,2017,93,drama
+7,all about eve,1950,100,drama
+8,metropolis,1927,99,drama
+9,a quiet place,2018,95,drama
+10,spotlight,2015,97,drama
+11,dunkirk,2017,92,drama
+12,selma,2015,99,drama
+13,casablanca,1942,97,drama
+14,la grande illusion,1938,97,drama
+15,the godfather,1972,98,drama
+16,call me by your name,2018,95,drama
+17,arrival,2016,94,drama
+18,leave no trace,2018,100,drama
+19,star wars: the last jedi,2017,91,drama
+20,logan,2017,93,drama
+21,the shape of water,2017,92,drama
+22,boyhood,2014,97,drama
+23,the maltese falcon,1941,100,drama
+24,gravity,2013,96,drama
+25,12 years a slave,2013,95,drama
+26,argo,2012,96,drama
+27,repulsion,1965,100,drama
+28,sunset boulevard,1950,98,drama
+29,thor: ragnarok,2017,92,drama
+30,rear window,1954,100,drama
+31,the battle of algiers,1967,98,drama
+32,baby driver,2017,93,drama
+33,the florida project,2017,96,drama
+34,alien,1979,97,drama
+35,la la land,2016,91,drama
+36,manchester by the sea,2016,95,drama
+37,bicycle thieves,1949,98,drama
+38,m,1931,100,drama
+39,taxi driver,1976,98,drama
+40,touch of evil,1958,96,drama
+41,seven samurai,1956,100,drama
+42,spider-man: homecoming,2017,92,drama
+43,all quiet on the western front,1930,100,drama
+44,hell or high water,2016,97,drama
+45,war for the planet of the apes,2017,93,drama
+46,12 angry men,1957,100,drama
+47,the treasure of the sierra madre,1948,100,drama
+48,"three billboards outside ebbing, missouri",2017,91,drama
+49,the babadook,2014,98,drama
+50,a streetcar named desire,1951,98,drama
+51,vertigo,1958,96,drama
+52,the 400 blows,1959,100,drama
+53,rebecca,1940,100,drama
+54,brooklyn,2015,97,drama
+55,the night of the hunter,1955,98,drama
+56,lawrence of arabia,1962,98,drama
+57,army of shadows,1969,97,drama
+58,the dark knight,2008,94,drama
+59,the death of stalin,2018,96,drama
+60,the wrestler,2008,98,drama
+61,rashômon,1951,98,drama
+62,jaws,1975,97,drama
+63,the wages of fear,1953,100,drama
+64,l.a. confidential,1997,99,drama
+65,creed,2015,95,drama
+66,open city,1946,100,drama
+67,on the waterfront,1954,98,drama
+68,harry potter and the deathly hallows - part 2,2011,96,drama
+69,the grapes of wrath,1940,100,drama
+70,tokyo story,1953,100,drama
+71,the big sleep,1946,97,drama
+72,roman holiday,1953,98,drama
+73,the hurt locker,2009,97,drama
+74,the last picture show,1971,100,drama
+75,cool hand luke,1967,100,drama
+76,the leopard,1963,100,drama
+77,star wars: episode iv - a new hope,1977,93,drama
+78,paterson,2016,96,drama
+79,phantom thread,2018,91,drama
+80,room,2015,94,drama
+81,hidden figures,2017,93,drama
+82,"i, tonya",2018,89,drama
+83,"the godfather, part ii",1974,97,drama
+84,chinatown,1974,98,drama
+85,battleship potemkin,1925,100,drama
+86,the searchers,1956,100,drama
+87,the post,2018,88,drama
+88,anatomy of a murder,1959,100,drama
+89,gone with the wind,1939,92,drama
+90,carol,2015,94,drama
+91,nightcrawler,2014,95,drama
+92,star trek,2009,94,drama
+93,before midnight,2013,98,drama
+94,the conformist,1970,98,drama
+95,au hasard balthazar,1966,100,drama
+96,things to come,2016,100,drama
+97,the red shoes,1948,96,drama
+98,schindler's list,1993,97,drama
+99,la dolce vita,1960,97,drama
+100,sweet smell of success,1957,98,drama
+1,get out,2017,98,horror
+2,the cabinet of dr. caligari,1920,100,horror
+3,a quiet place,2018,95,horror
+4,psycho,1960,97,horror
+5,king kong,1933,98,horror
+6,"nosferatu, a symphony of horror",1922,97,horror
+7,repulsion,1965,100,horror
+8,the bride of frankenstein,1935,100,horror
+9,the babadook,2014,98,horror
+10,rosemary's baby,1968,99,horror
+11,frankenstein,1931,100,horror
+12,aliens,1986,99,horror
+13,it follows,2015,96,horror
+14,let the right one in,2008,98,horror
+15,night of the living dead,1968,97,horror
+16,hereditary,2018,89,horror
+17,eyes without a face,1962,98,horror
+18,freaks,1932,94,horror
+19,the witch,2016,91,horror
+20,the silence of the lambs,1991,96,horror
+21,pan's labyrinth,2006,95,horror
+22,evil dead 2: dead by dawn,1987,98,horror
+23,the birds,1963,96,horror
+24,halloween,1978,95,horror
+25,gojira,1956,93,horror
+26,don't look now,1973,96,horror
+27,the vanishing,1988,98,horror
+28,the innocents,1961,96,horror
+29,the cabin in the woods,2012,91,horror
+30,a girl walks home alone at night,2014,96,horror
+31,drag me to hell,2009,92,horror
+32,it,2017,85,horror
+33,invasion of the body snatchers,1978,94,horror
+34,the evil dead,1981,95,horror
+35,the endless,2018,95,horror
+36,carrie,1976,93,horror
+37,re-animator,1985,95,horror
+38,young frankenstein,1974,93,horror
+39,the loved ones,2012,98,horror
+40,nosferatu: phantom der nacht,1979,94,horror
+41,the love witch,2016,95,horror
+42,room 237,2013,94,horror
+43,suspiria,1977,93,horror
+44,train to busan,2016,95,horror
+45,a nightmare on elm street,1984,94,horror
+46,shaun of the dead,2004,92,horror
+47,the host,2007,93,horror
+48,dracula,1931,91,horror
+49,the fly,1986,92,horror
+50,zombieland,2009,90,horror
+51,what ever happened to baby jane?,1962,92,horror
+52,cam,2018,94,horror
+53,eraserhead,1977,91,horror
+54,it comes at night,2017,87,horror
+55,dawn of the dead,1979,93,horror
+56,don't breathe,2016,88,horror
+57,phantom of the opera,1925,91,horror
+58,we are still here,2015,95,horror
+59,the wicker man,1973,90,horror
+60,little shop of horrors,1986,90,horror
+61,the texas chainsaw massacre,1974,88,horror
+62,let me in,2010,88,horror
+63,frankenweenie,2012,87,horror
+64,upgrade,2018,87,horror
+65,halloween,2018,79,horror
+66,the blair witch project,1999,87,horror
+67,the exorcist,1973,86,horror
+68,the conjuring,2013,86,horror
+69,the dead zone,1983,90,horror
+70,bone tomahawk,2015,91,horror
+71,misery,1990,89,horror
+72,the shining,1980,86,horror
+73,cronos,1994,90,horror
+74,the orphanage,2007,87,horror
+75,28 days later,2003,86,horror
+76,gerald's game,2017,90,horror
+77,the devil's candy,2017,91,horror
+78,an american werewolf in london,1981,88,horror
+79,near dark,1987,88,horror
+80,poltergeist,1982,86,horror
+81,henry: portrait of a serial killer,1986,86,horror
+82,this is the end,2013,83,horror
+83,chronicle,2012,85,horror
+84,the descent,2006,85,horror
+85,the omen,1976,86,horror
+86,donnie darko: the director's cut,2004,90,horror
+87,save the green planet,2004,90,horror
+88,slither,2006,86,horror
+89,ginger snaps,2001,89,horror
+90,the autopsy of jane doe,2016,87,horror
+91,a field in england,2014,88,horror
+92,backcountry,2015,89,horror
+93,goodnight mommy,2015,85,horror
+94,altered states,1980,86,horror
+95,the thing,1982,84,horror
+96,better watch out,2017,88,horror
+97,they live,1988,85,horror
+98,the house of the devil,2009,87,horror
+99,the conjuring 2,2016,80,horror
+100,the others,2001,84,horror
+1,the wizard of oz,1939,98,kids|family
+2,inside out,2015,98,kids|family
+3,e.t. the extra-terrestrial,1982,98,kids|family
+4,coco,2017,97,kids|family
+5,paddington 2,2018,100,kids|family
+6,incredibles 2,2018,94,kids|family
+7,snow white and the seven dwarfs,1937,98,kids|family
+8,toy story 2,1999,100,kids|family
+9,up,2009,98,kids|family
+10,the jungle book,2016,95,kids|family
+11,toy story 3,2010,98,kids|family
+12,finding nemo,2003,99,kids|family
+13,pinocchio,1940,100,kids|family
+14,harry potter and the deathly hallows - part 2,2011,96,kids|family
+15,toy story,1995,100,kids|family
+16,the lego movie,2014,96,kids|family
+17,moana,2016,95,kids|family
+18,mary poppins,1964,100,kids|family
+19,miracle on 34th street,1947,96,kids|family
+20,it's a wonderful life,1946,93,kids|family
+21,ratatouille,2007,96,kids|family
+22,how to train your dragon,2010,98,kids|family
+23,the incredibles,2004,97,kids|family
+24,yellow submarine,1968,97,kids|family
+25,paddington,2015,98,kids|family
+26,beauty and the beast,1991,94,kids|family
+27,chicken run,2000,97,kids|family
+28,the princess bride,1987,97,kids|family
+29,my life as a zucchini,2017,98,kids|family
+30,101 dalmatians,1961,98,kids|family
+31,the nightmare before christmas,1993,95,kids|family
+32,big,1988,97,kids|family
+33,fantasia,1940,96,kids|family
+34,"monsters, inc.",2001,96,kids|family
+35,the lego batman movie,2017,90,kids|family
+36,the iron giant,1999,96,kids|family
+37,spirited away,2002,97,kids|family
+38,song of the sea,2014,99,kids|family
+39,who framed roger rabbit,1988,97,kids|family
+40,babe,1995,97,kids|family
+41,the lion king,1994,93,kids|family
+42,the muppets,2011,95,kids|family
+43,about elly,2015,99,kids|family
+44,wallace & gromit: the curse of the were-rabbit,2005,95,kids|family
+45,my fair lady,1964,96,kids|family
+46,the straight story,1999,96,kids|family
+47,hugo,2011,93,kids|family
+48,aladdin,1992,94,kids|family
+49,fantastic mr. fox,2009,92,kids|family
+50,enchanted,2007,93,kids|family
+51,frozen,2013,90,kids|family
+52,the breadwinner,2017,95,kids|family
+53,coraline,2009,90,kids|family
+54,lady and the tramp,1955,93,kids|family
+55,antz,1998,93,kids|family
+56,jason and the argonauts,1963,93,kids|family
+57,how to train your dragon 2,2014,91,kids|family
+58,bambi,1942,90,kids|family
+59,the secret of roan inish,1995,95,kids|family
+60,my neighbor totoro,1988,94,kids|family
+61,big hero 6,2014,89,kids|family
+62,harry potter and the prisoner of azkaban,2004,90,kids|family
+63,the little mermaid,1989,92,kids|family
+64,spy kids,2001,93,kids|family
+65,how green was my valley,1941,90,kids|family
+66,l'heure d'été,2009,94,kids|family
+67,pete's dragon,2016,88,kids|family
+68,a bug's life,1998,92,kids|family
+69,princess mononoke,1999,92,kids|family
+70,a monster calls,2017,86,kids|family
+71,arthur christmas,2011,92,kids|family
+72,harry potter and the goblet of fire,2005,88,kids|family
+73,james and the giant peach,1996,92,kids|family
+74,that thing you do!,1996,93,kids|family
+75,teen titans go! to the movies,2018,91,kids|family
+76,willy wonka and the chocolate factory,1971,91,kids|family
+77,ponyo,2009,91,kids|family
+78,shrek 2,2004,89,kids|family
+79,tangled,2010,89,kids|family
+80,first position,2012,93,kids|family
+81,shrek,2001,88,kids|family
+82,lassie,2006,93,kids|family
+83,duma,2005,93,kids|family
+84,winnie the pooh,2011,91,kids|family
+85,rango,2011,88,kids|family
+86,a christmas story,1983,89,kids|family
+87,paranorman,2012,88,kids|family
+88,the peanuts movie,2015,87,kids|family
+89,the sound of music,1965,85,kids|family
+90,kung fu panda,2008,87,kids|family
+91,wreck-it ralph,2012,87,kids|family
+92,millions,2005,88,kids|family
+93,the secret of kells,2010,91,kids|family
+94,howl's moving castle,2005,87,kids|family
+95,cinderella,2015,84,kids|family
+96,disneynature bears,2014,91,kids|family
+97,the muppet movie,1979,88,kids|family
+98,harry potter and the half-blood prince,2009,83,kids|family
+99,the karate kid,1984,88,kids|family
+100,freaky friday,2003,87,kids|family
+1,the wizard of oz,1939,98,musical|performing_arts
+2,singin' in the rain,1952,100,musical|performing_arts
+3,a hard day's night,1964,98,musical|performing_arts
+4,la la land,2016,91,musical|performing_arts
+5,pinocchio,1940,100,musical|performing_arts
+6,an american in paris,1951,95,musical|performing_arts
+7,the red shoes,1948,96,musical|performing_arts
+8,mary poppins,1964,100,musical|performing_arts
+9,gentlemen prefer blondes,1953,98,musical|performing_arts
+10,yellow submarine,1968,97,musical|performing_arts
+11,the umbrellas of cherbourg,1964,98,musical|performing_arts
+12,beauty and the beast,1991,94,musical|performing_arts
+13,20 feet from stardom,2013,99,musical|performing_arts
+14,the last waltz,1978,98,musical|performing_arts
+15,amy,2015,95,musical|performing_arts
+16,some like it hot,1959,96,musical|performing_arts
+17,fantasia,1940,96,musical|performing_arts
+18,sing street,2016,95,musical|performing_arts
+19,the young girls of rochefort,1968,98,musical|performing_arts
+20,once,2007,97,musical|performing_arts
+21,anvil! the story of anvil,2009,98,musical|performing_arts
+22,the lion king,1994,93,musical|performing_arts
+23,waste land,2010,100,musical|performing_arts
+24,west side story,1961,94,musical|performing_arts
+25,amadeus,1984,94,musical|performing_arts
+26,afghan star,2009,100,musical|performing_arts
+27,hairspray,1988,98,musical|performing_arts
+28,we are the best!,2014,96,musical|performing_arts
+29,everyday sunshine: the story of fishbone,2011,100,musical|performing_arts
+30,bill cunningham new york,2011,99,musical|performing_arts
+31,my fair lady,1964,96,musical|performing_arts
+32,rivers and tides: andy goldsworthy working with time,2002,99,musical|performing_arts
+33,johnny guitar,1954,95,musical|performing_arts
+34,what's love got to do with it?,1993,96,musical|performing_arts
+35,aladdin,1992,94,musical|performing_arts
+36,beware of mr. baker,2012,98,musical|performing_arts
+37,sound city,2013,98,musical|performing_arts
+38,nashville,1975,92,musical|performing_arts
+39,keep on keepin' on,2014,98,musical|performing_arts
+40,wordplay,2006,95,musical|performing_arts
+41,49 up,2006,97,musical|performing_arts
+42,the full monty,1997,96,musical|performing_arts
+43,muscle shoals,2013,96,musical|performing_arts
+44,marley,2012,95,musical|performing_arts
+45,hairspray,2007,91,musical|performing_arts
+46,searching for sugar man,2012,94,musical|performing_arts
+47,les plages d'agnès,2008,96,musical|performing_arts
+48,festival express,2003,96,musical|performing_arts
+49,"20,000 days on earth",2014,95,musical|performing_arts
+50,exit through the gift shop,2010,95,musical|performing_arts
+51,funny girl,1968,93,musical|performing_arts
+52,love & mercy,2015,90,musical|performing_arts
+53,born into brothels,2004,95,musical|performing_arts
+54,pina,2011,95,musical|performing_arts
+55,crumb,1995,95,musical|performing_arts
+56,the little mermaid,1989,92,musical|performing_arts
+57,marina abramovic: the artist is present,2012,96,musical|performing_arts
+58,los angeles plays itself,2003,96,musical|performing_arts
+59,straight outta compton,2015,88,musical|performing_arts
+60,lost in la mancha,2003,94,musical|performing_arts
+61,lagaan: once upon a time in india,2001,95,musical|performing_arts
+62,hedwig and the angry inch,2001,93,musical|performing_arts
+63,crazy heart,2009,90,musical|performing_arts
+64,my kid could paint that,2007,94,musical|performing_arts
+65,end of the century: the story of the ramones,2004,95,musical|performing_arts
+66,the wrecking crew,2015,94,musical|performing_arts
+67,willy wonka and the chocolate factory,1971,91,musical|performing_arts
+68,dave chappelle's block party,2006,92,musical|performing_arts
+69,the filth and the fury,2000,95,musical|performing_arts
+70,the sapphires,2013,91,musical|performing_arts
+71,sing your song,2012,95,musical|performing_arts
+72,tangled,2010,89,musical|performing_arts
+73,a band called death,2013,94,musical|performing_arts
+74,florence foster jenkins,2016,87,musical|performing_arts
+75,my architect,2004,93,musical|performing_arts
+76,little shop of horrors,1986,90,musical|performing_arts
+77,every little step,2009,92,musical|performing_arts
+78,u2 3d,2007,92,musical|performing_arts
+79,sid and nancy,1986,88,musical|performing_arts
+80,scratch,2002,93,musical|performing_arts
+81,the sound of music,1965,85,musical|performing_arts
+82,f for fake,1974,88,musical|performing_arts
+83,ballets russes,2005,92,musical|performing_arts
+84,standing in the shadows of motown,2002,91,musical|performing_arts
+85,shine,1996,91,musical|performing_arts
+86,born to be blue,2016,89,musical|performing_arts
+87,five easy pieces,1970,87,musical|performing_arts
+88,neil young: heart of gold,2006,90,musical|performing_arts
+89,buena vista social club,1999,91,musical|performing_arts
+90,topsy-turvy,1999,89,musical|performing_arts
+91,chicago,2002,85,musical|performing_arts
+92,sweeney todd: the demon barber of fleet street,2007,85,musical|performing_arts
+93,the devil and daniel johnston,2006,89,musical|performing_arts
+94,the muppet movie,1979,88,musical|performing_arts
+95,caesar must die,2013,91,musical|performing_arts
+96,metallica: some kind of monster,2004,89,musical|performing_arts
+97,the punk singer,2013,90,musical|performing_arts
+98,control,2007,88,musical|performing_arts
+99,mamma mia! here we go again,2018,80,musical|performing_arts
+100,beats rhymes & life: the travels of a tribe called quest,2011,90,musical|performing_arts
+1,citizen kane,1941,100,mystery|suspense
+2,get out,2017,98,mystery|suspense
+3,the third man,1949,99,mystery|suspense
+4,the cabinet of dr. caligari,1920,100,mystery|suspense
+5,a quiet place,2018,95,mystery|suspense
+6,spotlight,2015,97,mystery|suspense
+7,arrival,2016,94,mystery|suspense
+8,psycho,1960,97,mystery|suspense
+9,laura,1944,100,mystery|suspense
+10,the maltese falcon,1941,100,mystery|suspense
+11,argo,2012,96,mystery|suspense
+12,repulsion,1965,100,mystery|suspense
+13,north by northwest,1959,99,mystery|suspense
+14,rear window,1954,100,mystery|suspense
+15,alien,1979,97,mystery|suspense
+16,m,1931,100,mystery|suspense
+17,taxi driver,1976,98,mystery|suspense
+18,touch of evil,1958,96,mystery|suspense
+19,hell or high water,2016,97,mystery|suspense
+20,the babadook,2014,98,mystery|suspense
+21,vertigo,1958,96,mystery|suspense
+22,rebecca,1940,100,mystery|suspense
+23,the night of the hunter,1955,98,mystery|suspense
+24,rosemary's baby,1968,99,mystery|suspense
+25,rashômon,1951,98,mystery|suspense
+26,jaws,1975,97,mystery|suspense
+27,the wages of fear,1953,100,mystery|suspense
+28,l.a. confidential,1997,99,mystery|suspense
+29,harry potter and the deathly hallows - part 2,2011,96,mystery|suspense
+30,the big sleep,1946,97,mystery|suspense
+31,the lady vanishes,1938,98,mystery|suspense
+32,high noon,1952,96,mystery|suspense
+33,skyfall,2012,92,mystery|suspense
+34,"the godfather, part ii",1974,97,mystery|suspense
+35,chinatown,1974,98,mystery|suspense
+36,the post,2018,88,mystery|suspense
+37,anatomy of a murder,1959,100,mystery|suspense
+38,invasion of the body snatchers,1956,98,mystery|suspense
+39,nightcrawler,2014,95,mystery|suspense
+40,strangers on a train,1951,98,mystery|suspense
+41,the 39 steps,1935,96,mystery|suspense
+42,the salesman,2017,96,mystery|suspense
+43,badlands,1974,98,mystery|suspense
+44,the manchurian candidate,1962,98,mystery|suspense
+45,eyes without a face,1962,98,mystery|suspense
+46,freaks,1932,94,mystery|suspense
+47,the conversation,1974,98,mystery|suspense
+48,the silence of the lambs,1991,96,mystery|suspense
+49,forbidden planet,1956,98,mystery|suspense
+50,101 dalmatians,1961,98,mystery|suspense
+51,goldfinger,1964,97,mystery|suspense
+52,le cercle rouge,1970,95,mystery|suspense
+53,sunrise: a song of two humans,1927,98,mystery|suspense
+54,casino royale,2006,94,mystery|suspense
+55,eye in the sky,2016,95,mystery|suspense
+56,all is lost,2013,94,mystery|suspense
+57,the guilty,2018,99,mystery|suspense
+58,blood simple,1984,94,mystery|suspense
+59,peeping tom,1960,96,mystery|suspense
+60,assault on precinct 13,1976,98,mystery|suspense
+61,no country for old men,2007,93,mystery|suspense
+62,looper,2012,93,mystery|suspense
+63,the birds,1963,96,mystery|suspense
+64,halloween,1978,95,mystery|suspense
+65,the fugitive,1993,96,mystery|suspense
+66,bridge of spies,2015,91,mystery|suspense
+67,mad max 2: the road warrior,1982,98,mystery|suspense
+68,searching,2018,92,mystery|suspense
+69,mandy,2018,92,mystery|suspense
+70,who framed roger rabbit,1988,97,mystery|suspense
+71,close encounters of the third kind,1977,96,mystery|suspense
+72,diva,1981,98,mystery|suspense
+73,dr. no,1962,96,mystery|suspense
+74,ex machina,2015,92,mystery|suspense
+75,sicario,2015,92,mystery|suspense
+76,jurassic park,1993,91,mystery|suspense
+77,don't look now,1973,96,mystery|suspense
+78,10 cloverfield lane,2016,90,mystery|suspense
+79,in the line of fire,1993,96,mystery|suspense
+80,from russia with love,1964,96,mystery|suspense
+81,the vanishing,1988,98,mystery|suspense
+82,elevator to the gallows,1958,93,mystery|suspense
+83,in the heat of the night,1967,96,mystery|suspense
+84,wake in fright,2012,100,mystery|suspense
+85,three colors: blue,1993,98,mystery|suspense
+86,blue ruin,2014,96,mystery|suspense
+87,the cabin in the woods,2012,91,mystery|suspense
+88,the killer,1989,98,mystery|suspense
+89,the bourne ultimatum,2007,92,mystery|suspense
+90,to catch a thief,1955,95,mystery|suspense
+91,gone girl,2014,87,mystery|suspense
+92,the imitation game,2014,90,mystery|suspense
+93,blue velvet,1986,94,mystery|suspense
+94,l'avventura,1960,95,mystery|suspense
+95,diabolique,1955,95,mystery|suspense
+96,a girl walks home alone at night,2014,96,mystery|suspense
+97,children of men,2006,92,mystery|suspense
+98,wild tales,2015,95,mystery|suspense
+99,you were never really here,2018,89,mystery|suspense
+100,drag me to hell,2009,92,mystery|suspense
+1,it happened one night,1934,98,romance
+2,casablanca,1942,97,romance
+3,the big sick,2017,98,romance
+4,call me by your name,2018,95,romance
+5,singin' in the rain,1952,100,romance
+6,the shape of water,2017,92,romance
+7,the adventures of robin hood,1938,100,romance
+8,the philadelphia story,1940,100,romance
+9,vertigo,1958,96,romance
+10,on the waterfront,1954,98,romance
+11,roman holiday,1953,98,romance
+12,gone with the wind,1939,92,romance
+13,an american in paris,1951,95,romance
+14,carol,2015,94,romance
+15,before midnight,2013,98,romance
+16,the red shoes,1948,96,romance
+17,the african queen,1951,98,romance
+18,city lights,1931,98,romance
+19,beauty and the beast,1946,95,romance
+20,miracle on 34th street,1947,96,romance
+21,annie hall,1977,97,romance
+22,the artist,2011,95,romance
+23,her,2013,94,romance
+24,only yesterday,1991,100,romance
+25,gentlemen prefer blondes,1953,98,romance
+26,the umbrellas of cherbourg,1964,98,romance
+27,beauty and the beast,1991,94,romance
+28,three colors: red,1994,100,romance
+29,the princess bride,1987,97,romance
+30,the best years of our lives,1946,96,romance
+31,bringing up baby,1938,95,romance
+32,sunrise: a song of two humans,1927,98,romance
+33,the hustler,1961,98,romance
+34,before sunrise,1995,100,romance
+35,sideways,2004,96,romance
+36,the apartment,1960,94,romance
+37,groundhog day,1993,96,romance
+38,wings of desire,1987,98,romance
+39,the young girls of rochefort,1968,98,romance
+40,bull durham,1988,97,romance
+41,"crouching tiger, hidden dragon",2001,97,romance
+42,sense and sensibility,1995,98,romance
+43,lost in translation,2003,95,romance
+44,enough said,2013,95,romance
+45,titanic,1997,89,romance
+46,slumdog millionaire,2008,91,romance
+47,west side story,1961,94,romance
+48,elevator to the gallows,1958,93,romance
+49,god's own country,2017,97,romance
+50,your name.,2017,97,romance
+51,three colors: blue,1993,98,romance
+52,say anything...,1989,98,romance
+53,to catch a thief,1955,95,romance
+54,daughters of the dust,1991,98,romance
+55,manhattan,1979,95,romance
+56,a girl walks home alone at night,2014,96,romance
+57,shakespeare in love,1998,92,romance
+58,giant,1956,95,romance
+59,up in the air,2009,91,romance
+60,eternal sunshine of the spotless mind,2004,93,romance
+61,the lunchbox,2014,96,romance
+62,before sunset,2004,95,romance
+63,dave,1993,95,romance
+64,the town,2010,93,romance
+65,midnight in paris,2011,93,romance
+66,from here to eternity,1953,92,romance
+67,four weddings and a funeral,1994,95,romance
+68,a summer's tale,2014,98,romance
+69,the crying game,1992,94,romance
+70,enchanted,2007,93,romance
+71,big night,1996,96,romance
+72,howards end,1992,94,romance
+73,million dollar baby,2004,91,romance
+74,about a boy,2002,93,romance
+75,the general,1927,94,romance
+76,knocked up,2007,90,romance
+77,monsoon wedding,2002,95,romance
+78,masculin feminin,1966,92,romance
+79,hamlet,1996,95,romance
+80,revanche,2009,96,romance
+81,to all the boys i've loved before,2018,96,romance
+82,out of sight,1998,93,romance
+83,the graduate,1967,89,romance
+84,the remains of the day,1993,95,romance
+85,strictly ballroom,1992,95,romance
+86,the spectacular now,2013,92,romance
+87,moonstruck,1987,93,romance
+88,the little mermaid,1989,92,romance
+89,the duke of burgundy,2015,94,romance
+90,brief encounter,1945,90,romance
+91,the piano,1993,92,romance
+92,southside with you,2016,91,romance
+93,y tu mama tambien,2001,92,romance
+94,lone star,1996,94,romance
+95,hannah and her sisters,1986,91,romance
+96,crazy heart,2009,90,romance
+97,kung fu hustle,2005,90,romance
+98,open hearts,2002,95,romance
+99,obvious child,2014,90,romance
+100,husbands and wives,1992,93,romance
+1,black panther,2018,97,science_fiction|fantasy
+2,the wizard of oz,1939,98,science_fiction|fantasy
+3,mad max: fury road,2015,97,science_fiction|fantasy
+4,wonder woman,2017,93,science_fiction|fantasy
+5,e.t. the extra-terrestrial,1982,98,science_fiction|fantasy
+6,metropolis,1927,99,science_fiction|fantasy
+7,arrival,2016,94,science_fiction|fantasy
+8,star wars: the last jedi,2017,91,science_fiction|fantasy
+9,logan,2017,93,science_fiction|fantasy
+10,the shape of water,2017,92,science_fiction|fantasy
+11,gravity,2013,96,science_fiction|fantasy
+12,star wars: episode vii - the force awakens,2015,93,science_fiction|fantasy
+13,"nosferatu, a symphony of horror",1922,97,science_fiction|fantasy
+14,snow white and the seven dwarfs,1937,98,science_fiction|fantasy
+15,thor: ragnarok,2017,92,science_fiction|fantasy
+16,the bride of frankenstein,1935,100,science_fiction|fantasy
+17,alien,1979,97,science_fiction|fantasy
+18,toy story 2,1999,100,science_fiction|fantasy
+19,spider-man: homecoming,2017,92,science_fiction|fantasy
+20,war for the planet of the apes,2017,93,science_fiction|fantasy
+21,toy story 3,2010,98,science_fiction|fantasy
+22,dr. strangelove or how i learned to stop worrying and love the bomb,1964,99,science_fiction|fantasy
+23,frankenstein,1931,100,science_fiction|fantasy
+24,the dark knight,2008,94,science_fiction|fantasy
+25,captain america: civil war,2016,91,science_fiction|fantasy
+26,pinocchio,1940,100,science_fiction|fantasy
+27,harry potter and the deathly hallows - part 2,2011,96,science_fiction|fantasy
+28,aliens,1986,99,science_fiction|fantasy
+29,toy story,1995,100,science_fiction|fantasy
+30,ant-man and the wasp,2018,88,science_fiction|fantasy
+31,star wars: episode iv - a new hope,1977,93,science_fiction|fantasy
+32,wall-e,2008,96,science_fiction|fantasy
+33,sorry to bother you,2018,93,science_fiction|fantasy
+34,invasion of the body snatchers,1956,98,science_fiction|fantasy
+35,star trek,2009,94,science_fiction|fantasy
+36,kubo and the two strings,2016,97,science_fiction|fantasy
+37,the terminator,1984,100,science_fiction|fantasy
+38,marvel's the avengers,2012,92,science_fiction|fantasy
+39,the martian,2015,91,science_fiction|fantasy
+40,mary poppins,1964,100,science_fiction|fantasy
+41,beauty and the beast,1946,95,science_fiction|fantasy
+42,miracle on 34th street,1947,96,science_fiction|fantasy
+43,star wars: episode v - the empire strikes back,1980,95,science_fiction|fantasy
+44,snowpiercer,2014,95,science_fiction|fantasy
+45,2001: a space odyssey,1968,93,science_fiction|fantasy
+46,the discreet charm of the bourgeoisie,1972,98,science_fiction|fantasy
+47,it's a wonderful life,1946,93,science_fiction|fantasy
+48,blade runner 2049,2017,87,science_fiction|fantasy
+49,her,2013,94,science_fiction|fantasy
+50,how to train your dragon,2010,98,science_fiction|fantasy
+51,avengers: infinity war,2018,84,science_fiction|fantasy
+52,8 1/2,1963,98,science_fiction|fantasy
+53,yellow submarine,1968,97,science_fiction|fantasy
+54,guardians of the galaxy,2014,91,science_fiction|fantasy
+55,beauty and the beast,1991,94,science_fiction|fantasy
+56,iron man,2008,93,science_fiction|fantasy
+57,the princess bride,1987,97,science_fiction|fantasy
+58,forbidden planet,1956,98,science_fiction|fantasy
+59,ghostbusters,1984,97,science_fiction|fantasy
+60,the nightmare before christmas,1993,95,science_fiction|fantasy
+61,big,1988,97,science_fiction|fantasy
+62,pan's labyrinth,2006,95,science_fiction|fantasy
+63,fantasia,1940,96,science_fiction|fantasy
+64,the day the earth stood still,1951,94,science_fiction|fantasy
+65,"monsters, inc.",2001,96,science_fiction|fantasy
+66,doctor strange,2016,89,science_fiction|fantasy
+67,x-men: days of future past,2014,90,science_fiction|fantasy
+68,the lord of the rings: the two towers,2002,95,science_fiction|fantasy
+69,live die repeat: edge of tomorrow,2014,90,science_fiction|fantasy
+70,looper,2012,93,science_fiction|fantasy
+71,back to the future,1985,96,science_fiction|fantasy
+72,groundhog day,1993,96,science_fiction|fantasy
+73,the iron giant,1999,96,science_fiction|fantasy
+74,spirited away,2002,97,science_fiction|fantasy
+75,solaris,1976,96,science_fiction|fantasy
+76,wings of desire,1987,98,science_fiction|fantasy
+77,gojira,1956,93,science_fiction|fantasy
+78,dawn of the planet of the apes,2014,90,science_fiction|fantasy
+79,song of the sea,2014,99,science_fiction|fantasy
+80,mad max 2: the road warrior,1982,98,science_fiction|fantasy
+81,annihilation,2018,89,science_fiction|fantasy
+82,close encounters of the third kind,1977,96,science_fiction|fantasy
+83,babe,1995,97,science_fiction|fantasy
+84,ex machina,2015,92,science_fiction|fantasy
+85,jurassic park,1993,91,science_fiction|fantasy
+86,brazil,1985,98,science_fiction|fantasy
+87,10 cloverfield lane,2016,90,science_fiction|fantasy
+88,blade runner,1982,90,science_fiction|fantasy
+89,repo man,1984,98,science_fiction|fantasy
+90,jodorowsky's dune,2014,97,science_fiction|fantasy
+91,the lord of the rings: the return of the king,2003,93,science_fiction|fantasy
+92,the seventh seal,1957,93,science_fiction|fantasy
+93,spider-man 2,2004,93,science_fiction|fantasy
+94,captain america: the winter soldier,2014,89,science_fiction|fantasy
+95,children of men,2006,92,science_fiction|fantasy
+96,the secret world of arrietty,2012,95,science_fiction|fantasy
+97,invasion of the body snatchers,1978,94,science_fiction|fantasy
+98,the evil dead,1981,95,science_fiction|fantasy
+99,district 9,2009,90,science_fiction|fantasy
+100,eternal sunshine of the spotless mind,2004,93,science_fiction|fantasy
+1,the bride of frankenstein,1935,100,special_interest
+2,frankenstein,1931,100,special_interest
+3,man on wire,2008,100,special_interest
+4,life itself,2014,97,special_interest
+5,miracle on 34th street,1947,96,special_interest
+6,the discreet charm of the bourgeoisie,1972,98,special_interest
+7,her,2013,94,special_interest
+8,amy,2015,95,special_interest
+9,taxi to the dark side,2007,100,special_interest
+10,blackfish,2013,98,special_interest
+11,murderball,2005,98,special_interest
+12,groundhog day,1993,96,special_interest
+13,inside job,2010,98,special_interest
+14,jiro dreams of sushi,2012,99,special_interest
+15,the square,2013,100,special_interest
+16,hoop dreams,1994,98,special_interest
+17,"mr. death: the rise and fall of fred a. leuchter, jr.",1999,100,special_interest
+18,afghan star,2009,100,special_interest
+19,capturing the friedmans,2003,97,special_interest
+20,waltz with bashir,2008,96,special_interest
+21,the overnighters,2014,99,special_interest
+22,jodorowsky's dune,2014,97,special_interest
+23,the interrupters,2011,99,special_interest
+24,how to survive a plague,2012,99,special_interest
+25,56 up,2013,99,special_interest
+26,last train home,2010,100,special_interest
+27,the invisible war,2012,99,special_interest
+28,spellbound,2002,97,special_interest
+29,enron: the smartest guys in the room,2005,97,special_interest
+30,love is strange,2014,94,special_interest
+31,the act of killing,2013,95,special_interest
+32,this is not a film,2012,97,special_interest
+33,elaine stritch: shoot me,2014,98,special_interest
+34,the king of kong: a fistful of quarters,2007,97,special_interest
+35,the fog of war: eleven lessons from the life of robert s. mcnamara,2003,96,special_interest
+36,bowling for columbine,2002,95,special_interest
+37,the imposter,2012,96,special_interest
+38,the war tapes,2006,98,special_interest
+39,cave of forgotten dreams,2011,96,special_interest
+40,ai weiwei: never sorry,2012,97,special_interest
+41,undefeated,2012,96,special_interest
+42,l'année dernière à marienbad,1961,94,special_interest
+43,sicko,2007,92,special_interest
+44,mea maxima culpa: silence in the house of god,2012,98,special_interest
+45,blindsight,2006,98,special_interest
+46,the devil came on horseback,2007,98,special_interest
+47,call me kuchu,2013,98,special_interest
+48,for the bible tells me so,2007,98,special_interest
+49,let the fire burn,2013,98,special_interest
+50,restrepo,2010,96,special_interest
+51,the life and times of hank greenberg,2000,97,special_interest
+52,surfwise,2007,98,special_interest
+53,bus 174,2003,97,special_interest
+54,wordplay,2006,95,special_interest
+55,control room,2004,96,special_interest
+56,burma vj: reporter i et lukket land,2008,97,special_interest
+57,no end in sight,2007,96,special_interest
+58,49 up,2006,97,special_interest
+59,winged migration,2003,95,special_interest
+60,muscle shoals,2013,96,special_interest
+61,the queen of versailles,2012,95,special_interest
+62,marley,2012,95,special_interest
+63,finding vivian maier,2014,95,special_interest
+64,an inconvenient truth,2006,93,special_interest
+65,a film unfinished,2010,97,special_interest
+66,"bigger, stronger, faster*",2008,96,special_interest
+67,sweetgrass,2009,97,special_interest
+68,trouble the water,2008,96,special_interest
+69,to be and to have,2003,97,special_interest
+70,"food, inc.",2009,95,special_interest
+71,the wild parrots of telegraph hill,2005,95,special_interest
+72,chasing ice,2012,96,special_interest
+73,"20,000 days on earth",2014,95,special_interest
+74,exit through the gift shop,2010,95,special_interest
+75,shaun of the dead,2004,92,special_interest
+76,the gatekeepers,2013,94,special_interest
+77,touching the void,2004,94,special_interest
+78,born into brothels,2004,95,special_interest
+79,crumb,1995,95,special_interest
+80,i am divine,2013,96,special_interest
+81,manakamana,2014,96,special_interest
+82,deep water,2006,96,special_interest
+83,the last of the unjust,2014,96,special_interest
+84,cutie and the boxer,2013,95,special_interest
+85,brooklyn castle,2012,96,special_interest
+86,up the yangtze,2007,96,special_interest
+87,good hair,2009,95,special_interest
+88,5 broken cameras,2012,96,special_interest
+89,national gallery,2014,95,special_interest
+90,the salt of the earth,2015,94,special_interest
+91,last days in vietnam,2014,95,special_interest
+92,plagues & pleasures on the salton sea,2004,96,special_interest
+93,promises,2002,96,special_interest
+94,the arbor,2011,96,special_interest
+95,the endurance,2001,95,special_interest
+96,eraserhead,1977,91,special_interest
+97,los angeles plays itself,2003,96,special_interest
+98,super size me,2004,92,special_interest
+99,my winnipeg,2007,94,special_interest
+100,the story of the weeping camel,2004,94,special_interest
+1,murderball,2005,98,sports|fitness
+2,hoop dreams,1994,98,sports|fitness
+3,when we were kings,1996,98,sports|fitness
+4,the king of kong: a fistful of quarters,2007,97,sports|fitness
+5,rocky,1976,93,sports|fitness
+6,undefeated,2012,96,sports|fitness
+7,the life and times of hank greenberg,2000,97,sports|fitness
+8,surfwise,2007,98,sports|fitness
+9,touching the void,2004,94,sports|fitness
+10,red army,2015,94,sports|fitness
+11,battle of the sexes,2017,85,sports|fitness
+12,the fighter,2010,90,sports|fitness
+13,the crash reel,2013,96,sports|fitness
+14,sugar,2008,92,sports|fitness
+15,the damned united,2009,92,sports|fitness
+16,boxing gym,2010,95,sports|fitness
+17,riding giants,2004,93,sports|fitness
+18,senna,2011,92,sports|fitness
+19,dogtown and z-boys,2001,92,sports|fitness
+20,the color of money,1986,89,sports|fitness
+21,tristram shandy: a cock & bull story,2005,89,sports|fitness
+22,up for grabs,2005,92,sports|fitness
+23,hoosiers,1986,88,sports|fitness
+24,field of dreams,1989,86,sports|fitness
+25,girlfight,2000,87,sports|fitness
+26,the heart of the game,2005,87,sports|fitness
+27,tyson,2009,85,sports|fitness
+28,chariots of fire,1981,83,sports|fitness
+29,the hurricane,1999,83,sports|fitness
+30,looking for eric,2010,85,sports|fitness
+31,the armstrong lie,2013,82,sports|fitness
+32,major league,1989,82,sports|fitness
+33,goon,2012,82,sports|fitness
+34,beyond the mat,1999,82,sports|fitness
+35,the boxer,1997,80,sports|fitness
+36,invictus,2009,76,sports|fitness
+37,fed up,2014,81,sports|fitness
+38,a league of their own,1992,78,sports|fitness
+39,step into liquid,2003,81,sports|fitness
+40,once in a lifetime: the extraordinary story of the new york cosmos,2006,81,sports|fitness
+41,stoked: the rise and fall of gator,2003,81,sports|fitness
+42,talladega nights: the ballad of ricky bobby,2006,71,sports|fitness
+43,invincible,2006,72,sports|fitness
+44,gunnin' for that #1 spot,2008,74,sports|fitness
+45,ultimate x: the movie,2002,74,sports|fitness
+46,the blind side,2009,66,sports|fitness
+47,more than a game,2009,71,sports|fitness
+48,secretariat,2010,63,sports|fitness
+49,dust to glory,2005,60,sports|fitness
+50,nascar: the imax experience,2004,61,sports|fitness
+51,glory road,2006,56,sports|fitness
+52,the sandlot,1993,57,sports|fitness
+53,because of winn-dixie,2005,55,sports|fitness
+54,the perfect game,2010,57,sports|fitness
+55,steep,2007,54,sports|fitness
+56,first descent,2005,52,sports|fitness
+57,soul surfer,2011,45,sports|fitness
+58,goal! the dream begins,2005,43,sports|fitness
+59,the replacements,2000,41,sports|fitness
+60,beerfest,2006,40,sports|fitness
+61,grudge match,2013,30,sports|fitness
+62,jiminy glick in lalawood,2005,22,sports|fitness
+63,playing for keeps,2012,5,sports|fitness
+1,life itself,2014,97,television
+2,afghan star,2009,100,television
+3,49 up,2006,97,television
+4,room 237,2013,94,television
+5,behind the candelabra,2013,95,television
+6,a film unfinished,2010,97,television
+7,the return,2004,95,television
+8,being elmo: a puppeteer's journey,2011,95,television
+9,"not quite hollywood: the wild, untold story of ozploitation!",2008,95,television
+10,los angeles plays itself,2003,96,television
+11,lost in la mancha,2003,94,television
+12,best worst movie,2010,95,television
+13,sing your song,2012,95,television
+14,american movie,1999,94,television
+15,the normal heart,2014,94,television
+16,"yoo-hoo, mrs. goldberg",2009,93,television
+17,the kid stays in the picture,2002,91,television
+18,side by side,2012,92,television
+19,joan rivers: a piece of work,2010,91,television
+20,f for fake,1974,88,television
+21,duel,1972,88,television
+22,saraband,2003,91,television
+23,corman's world: exploits of a hollywood rebel,2011,92,television
+24,"electric boogaloo: the wild, untold story of cannon films",2012,91,television
+25,tell them who you are,2005,88,television
+26,the five obstructions,2003,88,television
+27,doctor zhivago,1965,82,television
+28,this film is not yet rated,2006,84,television
+29,trekkies,1999,86,television
+30,inside deep throat,2005,83,television
+31,outfoxed: rupert murdoch's war on journalism,2004,85,television
+32,trumbo,2007,83,television
+33,confirmation,2016,82,television
+34,tupac: resurrection,2003,78,television
+35,overnight,2004,78,television
+36,teacher's pet,2004,76,television
+37,pom wonderful presents: the greatest movie ever sold,2011,74,television
+38,fellini: i'm a born liar,2003,73,television
+39,my date with drew,2004,71,television
+40,only human,2006,71,television
+41,waking sleeping beauty,2010,70,television
+42,porn star: the legend of ron jeremy,2001,69,television
+43,the rugrats movie,1998,59,television
+44,i'm still here,2010,53,television
+45,no strings attached,2011,49,television
+46,bamboozled,2000,48,television
+47,the real cancun,2003,35,television
+48,i am,2011,36,television
+49,15 minutes,2001,32,television
+50,man of the year,2006,22,television
+51,pokemon 3: the movie,2001,21,television
+52,the honeymooners,2005,13,television
+53,from justin to kelly,2003,10,television
+1,the treasure of the sierra madre,1948,100,western
+2,"the good, the bad and the ugly",1966,97,western
+3,high noon,1952,96,western
+4,the searchers,1956,100,western
+5,rio bravo,1959,100,western
+6,once upon a time in the west,1968,98,western
+7,true grit,2010,96,western
+8,unforgiven,1992,96,western
+9,a fistful of dollars,1964,98,western
+10,the wild bunch,1969,94,western
+11,the ballad of buster scruggs,2018,92,western
+12,johnny guitar,1954,95,western
+13,giant,1956,95,western
+14,sweetgrass,2009,97,western
+15,the man who shot liberty valance,1962,93,western
+16,lone star,1996,94,western
+17,butch cassidy and the sundance kid,1969,90,western
+18,3:10 to yuma,2007,89,western
+19,django unchained,2012,86,western
+20,blazing saddles,1974,90,western
+21,true grit,1969,88,western
+22,mccabe & mrs. miller,1971,89,western
+23,bone tomahawk,2015,91,western
+24,the magnificent seven,1960,88,western
+25,near dark,1987,88,western
+26,the three burials of melquiades estrada,2006,85,western
+27,meek's cutoff,2011,86,western
+28,the proposition,2005,85,western
+29,dances with wolves,1990,82,western
+30,the homesman,2014,81,western
+31,the hateful eight,2015,74,western
+32,"the good, the bad, the weird",2010,83,western
+33,open range,2003,79,western
+34,shanghai noon,2000,79,western
+35,appaloosa,2008,76,western
+36,the assassination of jesse james by the coward robert ford,2007,76,western
+37,hostiles,2018,71,western
+38,red hill,2010,78,western
+39,in a valley of violence,2016,76,western
+40,the keeping room,2015,75,western
+41,the horse whisperer,1998,74,western
+42,blackthorn,2011,75,western
+43,tombstone,1993,73,western
+44,fah talai jone,2007,74,western
+45,the magnificent seven,2016,63,western
+46,the salvation,2015,72,western
+47,dead man,1995,70,western
+48,the rover,2014,66,western
+49,maverick,1994,66,western
+50,the claim,2000,62,western
+51,the missing,2003,58,western
+52,heaven's gate,1980,57,western
+53,legends of the fall,1994,56,western
+54,the quick and the dead,1995,57,western
+55,sukiyaki western django,2008,56,western
+56,the killer inside me,2010,54,western
+57,seraphim falls,2007,55,western
+58,ned kelly,2003,56,western
+59,down in the valley,2006,52,western
+60,cowboys & aliens,2011,45,western
+61,forsaken,2016,43,western
+62,jane got a gun,2016,41,western
+63,brimstone,2017,41,western
+64,a million ways to die in the west,2014,33,western
+65,the lone ranger,2013,31,western
+66,the alamo,2004,29,western
+67,the warrior's way,2010,28,western
+68,the dark tower,2017,16,western
+69,wild wild west,1999,17,western
+70,priest,2011,15,western
+71,american outlaws,2001,14,western
+72,september dawn,2007,15,western
+73,jonah hex,2010,12,western
+74,texas rangers,2001,2,western
