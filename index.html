@@ -10,6 +10,80 @@
 </head>
 <body>
 
+
+
+    <div class="jumbotron container p-5 mt-3">
+        <h1 class="display-4">Movie Comparisions</h1>
+        <hr class="my-4">
+            <div class="col-lg-2 text-lg-right">
+                <p class="mt-2">X-Axis:</p>
+            </div>
+            <div class="col-lg-10 pr-lg-5">
+                <select class="form-control my-1" id="x-selector-dropdown">
+                    {% for option in options %}
+                    <option>{{option}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-lg-2 text-lg-right">
+                <p class="mt-2">Y-Axis:</p>
+            </div>
+            <div class="col-lg-10 pr-lg-5">
+                <select class="form-control my-1" id="y-selector-dropdown">
+                    {% for option in options %}
+                    <option>{{option}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+            <div class="row mt-3">
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-7 text-lg-right pt-2">
+                    <p>Submit your choices to see the results below!</p>
+                </div>
+                <div class="col-lg-2 text-lg-left">
+                    <button class="btn btn-primary" type="submit" id="submitBtn">Submit</button>
+                </div>
+            </div>
+    </div>
+
+    <!-- Plot -->
+    <div class="container-fluid container-lg text-center px-lg-5">
+        <h3 class="py-3" id="plot-title">Movie Comparision</h3>
+        <div id="plot" class="text-center"></div>
+    </div>
+
+    <!-- Table -->
+    <div class="container-lg p-0 mt-4 mx-auto pt-4 border-top">
+        <h3 id="table-title">Movie Comparision</h3>
+        <div class="table-responsive">
+            <table id="data-table" data-toggle="table">
+                <thead>
+                    <tr>
+                        <th data-field="x" data-sortable="true">x</th>
+                        <th data-field="y" data-sortable="true">y</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
     <script src="Static/js/plot.js"></script>
 
