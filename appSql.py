@@ -16,33 +16,38 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 from flask import Flask, jsonify
-
+import json
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///project2.db")             
-# reflect an existing database into a new model
-Base = automap_base()
-# reflect the tables
-Base.prepare(engine, reflect=True)
 
-# Save references to each table
+class imdb(Base):
+    __tablename__ = 'imdb'
+    title = Column(String, primary_key=True)
+    user_score = Column(Float)
+    year = Column(Integer)
+    duration = Column(Integer)
+    country = Column(String)
+    usa_gross = Column(Integer)
+    world_gross = Column(Integer)
 
-imdb_df = pd.read_sql_table('imdb', engine)               
-print (imdb_df)       
+class tomato(Base):
+    __tablename__ = 'tomato'
+    rank = Column(Integer)
+    title = Column(String, primary_key=True)
+    year = Column(Integer)
+    rating = Column(Integer)
+    genres = Column(String)
+   
+database_path = "project2.db"
+engine = create_engine(f"sqlite:///{database_path}", echo = True)
+conn = engine.connect()
 
-tomato_df = pd.read_sql_table('tomato', engine)               
-print (tomato_df)  
+Base.metadata.create_all(engine)
 
-# imdb_result = engine.execute('SELECT * FROM "imdb";')     
-# # print(result.fetchall())                                
+from sqlalchemy.orm import Session
+session = Session(bind=engine)
 
-imdb = Base.classes.imdb                                 
-tomato = Base.classes.tomato
-
-#################################################
-# Flask Setup
-#################################################
 app = Flask(__name__)
 
 #################################################
@@ -72,13 +77,13 @@ def home():
 
 #imdb Data
 @app.route("/api/v1.0/imdb")
-def imdb():   
+def imdb_route():   
     session = Session(engine)
     imdb_q = session.query(imdb.title, imdb.user_score, imdb.year, imdb.duration, imdb.country, imdb.usa_gross, imdb.world_gross).all()
 
     session.close()
 
-    imdb = []
+    imdb_results = []
     for title, user_score, year, duration, country, usa_gross, world_gross in imdb_q:
         imdb_dict = {}
         imdb_dict["title"] = title
@@ -89,16 +94,16 @@ def imdb():
         imdb_dict["usa_gross"] = usa_gross
         imdb_dict["world_gross"] = world_gross       
 
-        imdb.append(imdb_dict) 
+        imdb_results.append(imdb_dict) 
 
-    return jsonify(imdb)
+    return jsonify(imdb_results)
 
 @app.route("/api/v1.0/imdb_country")
 def imdb_country():
     session = Session(engine)
     results = session.query(imdb.country).all()
     session.close()
-    all_countries = list(np.ravel(results))
+    all_countries = list(results)
     return jsonify(all_countries)
 
 @app.route("/api/v1.0/imdb_duration")
@@ -106,7 +111,7 @@ def imdb_duration():
     session = Session(engine)
     results = session.query(imdb.duration).all()
     session.close()
-    all_duration = list(np.ravel(results))
+    all_duration = list(results)
     return jsonify(all_duration)
 
 @app.route("/api/v1.0/imdb_title")
@@ -114,7 +119,7 @@ def imdb_title():
     session = Session(engine)
     results = session.query(imdb.title).all()
     session.close()
-    all_titles = list(np.ravel(results))
+    all_titles = list(results)
     return jsonify(all_titles)
 
 @app.route("/api/v1.0/imdb_usgross")
@@ -122,7 +127,7 @@ def imdb_usgross():
     session = Session(engine)
     results = session.query(imdb.usa_gross).all()
     session.close()
-    all_usa_gross = list(np.ravel(results))
+    all_usa_gross = list(results)
     return jsonify(all_usa_gross)
 
 @app.route("/api/v1.0/imdb_userscore")
@@ -130,7 +135,7 @@ def imdb_userscore():
     session = Session(engine)
     results = session.query(imdb.user_score).all()
     session.close()
-    all_user_scores = list(np.ravel(results))
+    all_user_scores = list(results)
     return jsonify(all_user_scores)
 
 @app.route("/api/v1.0/imdb_worldgross")
@@ -138,7 +143,7 @@ def imdb_worldgross():
     session = Session(engine)
     results = session.query(imdb.world_gross).all()
     session.close()
-    all_world_gross = list(np.ravel(results))
+    all_world_gross = list(results)
     return jsonify(all_world_gross)
 
 @app.route("/api/v1.0/imdb_year")
@@ -146,18 +151,18 @@ def imdb_year():
     session = Session(engine)
     results = session.query(imdb.year).all()
     session.close()
-    all_years = list(np.ravel(results))
+    all_years = list(results)
     return jsonify(all_years)
 
 #Tomato Data
 @app.route("/api/v1.0/tomato")
-def tomato():
+def tomato_route():
     session = Session(engine)
     tomato_q = session.query(tomato.rank, tomato.title, tomato.year, tomato.rating, tomato.genres).all()
 
     session.close()
 
-    tomato = []
+    tomato_results = []
     for rank, title, year, rating, genres in tomato_q:
         tomato_dict = {}
         tomato_dict["rank"] = rank
@@ -166,24 +171,24 @@ def tomato():
         tomato_dict["rating"] = rating
         tomato_dict["genres"] = genres             
 
-        tomato.append(tomato_dict) 
+        tomato_results.append(tomato_dict) 
 
-    return jsonify(tomato)
+    return jsonify(tomato_results)
 
 @app.route("/api/v1.0/tomato_genres")
 def tomato_genres():
     session = Session(engine)
     results = session.query(tomato.genres).all()
     session.close()
-    all_genres = list(np.ravel(results))
+    all_genres = list(results)
     return jsonify(all_genres)   
 
 @app.route("/api/v1.0/tomato_rank")
 def tomato_rank():
     session = Session(engine)
-    results = session.query(tomato["rank"]).all()
+    results = session.query(tomato.rank).all()
     session.close()
-    all_ranks = list(np.ravel(results))
+    all_ranks = list(results)
     return jsonify(all_ranks)
     
 @app.route("/api/v1.0/tomato_rating")
@@ -191,7 +196,7 @@ def tomato_rating():
     session = Session(engine)
     results = session.query(tomato.rating).all()
     session.close()
-    all_ratings = list(np.ravel(results))
+    all_ratings = list(results)
     return jsonify(all_ratings)
     
 @app.route("/api/v1.0/tomato_title")
@@ -199,7 +204,7 @@ def tomato_title():
     session = Session(engine)
     results = session.query(tomato.title).all()
     session.close()
-    all_titles = list(np.ravel(results))
+    all_titles = list(results)
     return jsonify(all_titles)        
 
 @app.route("/api/v1.0/tomato_year")
@@ -207,7 +212,7 @@ def tomato_year():
     session = Session(engine)
     results = session.query(tomato.year).all()
     session.close()
-    all_years = list(np.ravel(results))
+    all_years = list(results)
     return jsonify(all_years)
 
 if __name__ == '__main__':
