@@ -20,9 +20,14 @@
             </div>
             <div class="col-lg-10 pr-lg-5">
                 <select class="form-control my-1" id="x-selector-dropdown">
-                    {% for option in options %}
-                    <option>{{option}}</option>
-                    {% endfor %}
+                    <option href="#" class="dropdown-item" value="usa_gross">USA Gross</option>
+                    <option href="#" class="dropdown-item" value="duration">Duration</option>
+                    <option href="#" class="dropdown-item" value="title">Title</option>
+                    <option href="#" class="dropdown-item" value="user_score">User Score</option>
+                    <option href="#" class="dropdown-item" value="country">Country</option>
+                    <option href="#" class="dropdown-item" value="world_gross">World Gross</option>
+                    <option href="#" class="dropdown-item" value="year">Year</option>
+                       
                 </select>
             </div>
             <div class="col-lg-2 text-lg-right">
@@ -30,9 +35,18 @@
             </div>
             <div class="col-lg-10 pr-lg-5">
                 <select class="form-control my-1" id="y-selector-dropdown">
-                    {% for option in options %}
-                    <option>{{option}}</option>
-                    {% endfor %}
+                    <option href="#" class="dropdown-item" value="year">Year</option>
+                    <option href="#" class="dropdown-item" value="usa_gross">USA Gross</option>
+                    <option href="#" class="dropdown-item" value="duration">Duration</option>
+                    <option href="#" class="dropdown-item" value="user_score">User Score</option>
+                    <option href="#" class="dropdown-item" value="world_gross">World Gross</option>
+
+
+                        <!-- <option href="#" class="dropdown-item">duration</option> -->
+                        <!-- <option href="#" class="dropdown-item">City</option> -->
+                        <!-- <option href="#" class="dropdown-item">State</option>
+                        <option href="#" class="dropdown-item">Country</option>
+                        <option href="#" class="dropdown-item">Shape</option> -->
                 </select>
             </div>
         </div>
@@ -44,6 +58,7 @@
                 </div>
                 <div class="col-lg-2 text-lg-left">
                     <button class="btn btn-primary" type="submit" id="submitBtn">Submit</button>
+
                 </div>
             </div>
     </div>
@@ -83,7 +98,7 @@
 
 
 
-
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
     <script src="Static/js/plot.js"></script>
 
