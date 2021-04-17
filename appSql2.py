@@ -62,6 +62,7 @@ def home():
     return (
         f"Available Routes:<br/>"                                       
         f"/api/v1.0/imdb<br/>"
+        f"/api/v1.0/imdb2<br/>"
         f"/api/v1.0/imdb_country<br/>"
         f"/api/v1.0/imdb_duration<br/>"
         f"/api/v1.0/imdb_title<br/>"
@@ -103,6 +104,27 @@ def imdb_route():
     imdb_results = {'title':cols[0], 'user_score':cols[1], 'year':cols[2], 'duration':cols[3], 'country':cols[4], 'usa_gross':cols[5], 'world_gross':cols[6]}
 
 
+    return jsonify(imdb_results)
+
+@app.route("/api/v1.0/imdb2")
+def imdb_route2():   
+    session = Session(engine)
+    imdb_q = session.query(imdb.title, imdb.user_score, imdb.year, imdb.duration, imdb.country, imdb.usa_gross, imdb.world_gross).all()
+    session.close()
+    imdb_results = []
+    for title, user_score, year, duration, country, usa_gross, world_gross in imdb_q:
+        imdb_dict = {}
+        imdb_dict["title"] = title
+        imdb_dict["user_score"] = user_score
+        imdb_dict["year"] = year
+        imdb_dict["duration"] = duration
+        imdb_dict["country"] = country
+        imdb_dict["usa_gross"] = usa_gross
+        imdb_dict["world_gross"] = world_gross       
+        imdb_results.append(imdb_dict) 
+    # rows = [(title, user_score, year, duration, country, usa_gross, world_gross) for title, user_score, year, duration, country, usa_gross, world_gross in imdb_q]
+    # cols = list(zip(*rows))
+    # imdb_results = {'title':cols[0], 'user_score':cols[1], 'year':cols[2], 'duration':cols[3], 'country':cols[4], 'usa_gross':cols[5], 'world_gross':cols[6]}
     return jsonify(imdb_results)
 
 @app.route("/api/v1.0/imdb_country")
