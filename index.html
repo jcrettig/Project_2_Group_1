@@ -8,10 +8,9 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
 </head>
+
 <body>
-
-
-
+    <!-- IMDb Scatter Plot Jumbotron -->
     <div class="jumbotron container p-5 mt-3">
         <h1 class="display-4">Movie Comparisions</h1>
         <hr class="my-4">
@@ -27,7 +26,6 @@
                     <option href="#" class="dropdown-item" value="country">Country</option>
                     <option href="#" class="dropdown-item" value="world_gross">World Gross</option>
                     <option href="#" class="dropdown-item" value="year">Year</option>
-                       
                 </select>
             </div>
             <div class="col-lg-2 text-lg-right">
@@ -50,38 +48,53 @@
                 </select>
             </div>
         </div>
-            <div class="row mt-3">
-                <div class="col-lg-3">
-                </div>
-                <div class="col-lg-7 text-lg-right pt-2">
-                    <p>Submit your choices to see the results below!</p>
-                </div>
-                <div class="col-lg-2 text-lg-left">
-                    <button class="btn btn-primary" type="submit" id="submitBtn">Submit</button>
 
-                </div>
+        <!-- IMDb Scatter Plot Button -->
+        <div class="row mt-3">
+            <div class="col-lg-3">
             </div>
+            <div class="col-lg-7 text-lg-right pt-2">
+                <p>Submit your choices to see the results below!</p>
+            </div>
+            <div class="col-lg-2 text-lg-left">
+                <button class="btn btn-primary" type="submit" id="submitBtn">Submit</button>
+            </div>
+        </div>
     </div>
 
-    <!-- Plot -->
+    <!-- Gross Comparison Jumbotron -->
+    <div class="jumbotron container p-5 mt-3">
+        <h1 class="display-4">Gross Profit: USA vs World Comparison</h1>
+        <hr class="my-4">
+        <div class="col-lg-2 text-lg-right">
+            <p class="mt-2">Title:</p>
+        </div>
+        <input class="form-control" id="searchTitle" type="text" placeholder="black panther"></input>    
+    </div>
+    
+    <!-- Gross Comparison Button -->
+            
+    <div class="row mt-3">
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-7 text-lg-right pt-2">
+            <p>Please enter your movie above to view your results!</p>
+        </div>
+        <div class="col-lg-2 text-lg-left">
+            <button class="btn btn-primary" type="submit" id="submitBtnDonut">Submit</button>
+        </div>
+    </div>
+
+    <!-- Scatter Plot -->
     <div class="container-fluid container-lg text-center px-lg-5">
         <h3 class="py-3" id="plot-title">Movie Comparision</h3>
         <div id="plot" class="text-center"></div>
     </div>
 
-    <!-- Table -->
-    <div class="container-lg p-0 mt-4 mx-auto pt-4 border-top">
-        <h3 id="table-title">Movie Comparision</h3>
-        <div class="table-responsive">
-            <table id="data-table" data-toggle="table">
-                <thead>
-                    <tr>
-                        <th data-field="x" data-sortable="true">x</th>
-                        <th data-field="y" data-sortable="true">y</th>
-                    </tr>
-                </thead>
-            </table>
-        </div>
+    <!-- Donut Chart -->
+    <div class="container-fluid container-lg text-center px-lg-5">
+        <h3 class="py-3" id="plot-title-donut">USA VS World Gross Comparision</h3>
+        <div id="plotDonut" class="text-center"></div>
     </div>
 </div>
 </div>
@@ -99,10 +112,12 @@
 
 
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
     <script src="Static/js/plot.js"></script>
+    <!-- AnyChart -->
+    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-pie.min.js"></script>
 
-    
 </body>
 </html>
 

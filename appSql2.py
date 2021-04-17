@@ -39,7 +39,7 @@ class tomato(Base):
     year = Column(Integer)
     rating = Column(Integer)
     genres = Column(String)
-   
+
 database_path = "project2.db"
 engine = create_engine(f"sqlite:///{database_path}", echo = True)
 conn = engine.connect()
