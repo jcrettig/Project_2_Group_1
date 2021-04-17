@@ -7,14 +7,14 @@ var buttonDonut = d3.select("#submitBtnDonut")
 function buildPlot() {
   d3.json(imdb).then(function(data) {
     console.log(data)
- 
+
 
   var inputValue_x = d3.select("#x-selector-dropdown")
   var inputValue_y = d3.select("#y-selector-dropdown")
 
   var searchValue_x = inputValue_x.property("value")
   var searchValue_y = inputValue_y.property("value")
- 
+
     var trace1 = {
       mode: "markers",
       type: "scatter",
@@ -41,8 +41,12 @@ function buildDonut() {
     var inputMovie = d3.select("#searchTitle");
     var searchMovie = inputMovie.property("value").toLowerCase();
 
-    var movieUSA = data.filter(movie => movie.usa_gross === searchMovie);
-    var movieWorld = data.filter(movie => movie.world_gross === searchMovie);
+    // filter through data to find searched title
+    var movieTitle = data.filter(movie => movie.title === searchMovie);
+
+    // grab USA and world gross for searched title
+    // var movieUSA = 
+    // var movieWorld = 
 
     var movieData = [
       {x: "USA Gross", value: movieUSA},
