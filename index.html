@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="Static/css/style.css">
 </head>
 
 <body>
+    <style>
+        body  {
+        /* background-image: url("pexels-ricardo-ortiz-6447214.jpg"); */
+        background-color: #d4d3d3;
+        }
+    </style>
     <!-- IMDb Scatter Plot Jumbotron -->
-    <div class="jumbotron container p-5 mt-3">
+    <div class="jumbotron container p-5 mt-3" style="background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.397) 0%,rgba(255, 255, 255, 0.74) 100%), url(Static/images/imageMovieJumbo.jpg)">
         <h1 class="display-4">Movie Comparisions</h1>
         <hr class="my-4">
             <div class="col-lg-2 text-lg-right">
@@ -62,14 +69,27 @@
         </div>
     </div>
 
+    <!-- Scatter Plot -->
+    <div class="container-fluid container-lg text-center px-lg-5">
+        <h3 class="py-3" id="plot-title">Movie Comparision</h3>
+        <div id="plot" class="center" style="height: 500px; width: 900px"></div>
+    </div>
+
     <!-- Gross Comparison Jumbotron -->
-    <div class="jumbotron container p-5 mt-3">
+    <div class="jumbotron container p-5 mt-3" style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.397) 0%,rgba(255, 255, 255, 0.74) 100%), url(Static/images/imageMovieJumbo.jpg)">
         <h1 class="display-4">Gross Profit: USA vs World Comparison</h1>
         <hr class="my-4">
         <div class="col-lg-2 text-lg-right">
             <p class="mt-2">Title:</p>
+                <select class="form-control my-1" id="x-selector-dropdown-donut">
+                    {% for option in options %}
+                    <option>{{option}}</option>
+                    {% endfor %}
+                </select>
+            </div>
         </div>
-        <input class="form-control" id="searchTitle" type="text" placeholder="black panther"></input>    
+        <!-- <input class="form-control" id="searchTitle" type="text" placeholder="black panther"></input>     -->
+        
     </div>
     
     <!-- Gross Comparison Button -->
@@ -85,18 +105,12 @@
         </div>
     </div>
 
-    <!-- Scatter Plot -->
-    <div class="container-fluid container-lg text-center px-lg-5">
-        <h3 class="py-3" id="plot-title">Movie Comparision</h3>
-        <div id="plot" class="text-center"></div>
-    </div>
-
     <!-- Donut Chart -->
     <div class="container-fluid container-lg text-center px-lg-5">
         <h3 class="py-3" id="plot-title-donut">USA VS World Gross Comparision</h3>
-        <div id="plotDonut" class="text-center"></div>
+        <!-- TODO chart size -->
+        <div id="plotDonut" class="text-center" style="height: 400px; width: 400px"></div>
     </div>
-</div>
 </div>
 
 
