@@ -66,7 +66,7 @@ def home():
         f"/api/v1.0/imdb_country<br/>"
         f"/api/v1.0/imdb_duration<br/>"
         f"/api/v1.0/imdb_title<br/>"
-        f"/api/v1.0/imdb2_Filtered_title<br/>"                  # Added 06018
+        f"/api/v1.0/imdb2_filtered_title<br/>"                  
         f"/api/v1.0/imdb_usgross<br/>"
         f"/api/v1.0/imdb_userscore<br/>"
         f"/api/v1.0/imdb_worldgross<br/>"
@@ -153,10 +153,11 @@ def imdb_title():
     session.close()
     all_titles = list(results)
     all_titles = list(zip(*all_titles))[0]
-    return jsonify(all_titles)
+    titles_reversed = list(reversed(all_titles))
+    return jsonify(titles_reversed)
 
-@app.route("/api/v1.0/imdb2_Filtered_title")                    # Added 0618
-def imdb2Filtered_route2():  
+@app.route("/api/v1.0/imdb2_filtered_title")                   
+def imdb2_filtered_title():  
     session = Session(engine)
     imdb_q = session.query(imdb.title, imdb.user_score, imdb.year, imdb.duration, imdb.country, imdb.usa_gross, imdb.world_gross).all()
     session.close()

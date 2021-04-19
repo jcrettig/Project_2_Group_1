@@ -72,20 +72,21 @@ var donutLoad = (defaultDonut => {
 
     // filter through data to find title
     var movieTitle = data.filter(movie => movie.title === searchMovie)
-    console.log(movieTitle)
-    // grab USA and world gross for title
+    
+    // grab USA and world gross for title, adjust totals
     var movieUSA = movieTitle[0]['usa_gross']
     var movieWorld = movieTitle[0]['world_gross']
+    var movieWorldAdjust = movieWorld - movieUSA
 
     var movieData = [
       {x: "USA Gross", value: movieUSA},
-      {x: "World Gross", value: movieWorld}
+      {x: "World Gross", value: movieWorldAdjust}
     ]
     // create pie chart, set data
     chart = anychart.pie(movieData);
 
     /* set the inner radius(to turn the pie chart into a doughnut chart)*/
-    chart.innerRadius("35%");
+    chart.innerRadius("50%");
 
     // set the position of labels
     chart.labels().position("outside");
@@ -170,20 +171,22 @@ var buildDonut = (buildDonut => {
 
     // filter through data to find searched title
     var movieTitle = data.filter(movie => movie.title === searchMovie)
-    console.log(movieTitle)
+    
     // grab USA and world gross for searched title
     var movieUSA = movieTitle[0]['usa_gross']
     var movieWorld = movieTitle[0]['world_gross']
+    var movieWorldAdjust = movieWorld - movieUSA
+
 
     var movieData = [
       {x: "USA Gross", value: movieUSA},
-      {x: "World Gross", value: movieWorld}
+      {x: "World Gross", value: movieWorldAdjust}
     ]
     // create pie chart, set data
     chart = anychart.pie(movieData);
 
     /* set the inner radius(to turn the pie chart into a doughnut chart)*/
-    chart.innerRadius("30%");
+    chart.innerRadius("50%");
 
     // set the position of labels
     chart.labels().position("outside");
@@ -193,7 +196,7 @@ var buildDonut = (buildDonut => {
 
     // create and configure a label
     var label = anychart.standalones.label();
-    label.text(movieTitle[0]['title']);
+    label.text(toTitleCase(movieTitle[0]['title']));
     label.width("100%");
     label.height("100%");
     label.fontColor("#60727b");
