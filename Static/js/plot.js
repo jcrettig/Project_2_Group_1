@@ -1,5 +1,5 @@
 // Variable set up
-const imdb = "https://jcrettig.github.io/Project_2_Group_1/api/v1.0/imdb"
+const imdb = "http://127.0.0.1:5000/api/v1.0/imdb"
 const imdbDonut = "http://127.0.0.1:5000/api/v1.0/imdb2"
 var imdbTitleArray = "http://127.0.0.1:5000/api/v1.0/imdb_title"
 
